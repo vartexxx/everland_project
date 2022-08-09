@@ -1,0 +1,23 @@
+.whom__button_green {
+    background-color: #DAEFD5;
+    background-image: url(../../../../images/arrow__green.svg);
+    color: #319B17;
+}
+
+.whom__button_green:hover {
+    color: white;
+    background-color: #319B17;
+    background-image: url(../../../../images/arrow__white.svg);
+}
+
+.whom__button_green:active {
+    background-color: #0E4900;
+    color: white;
+    background-image: url(../../../../images/arrow__white.svg);
+}
+
+.whom__button_green:disabled {
+    color: rgba(38, 38, 38, 0.5);
+    background-image: url(../../../../images/arrow__disabled.svg);
+    background-color: #C4C4C4;
+}
