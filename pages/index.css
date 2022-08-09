@@ -1,3 +1,12 @@
 @import url(../vendor/normalize.css);
 
 @import url(../blocks/body/body.css);
+
+@import url(../blocks/container/container.css);
+@import url(../blocks/container/_place/container_place_destinations.css);
+
+@import url(../blocks/destinations/destinations.css);
+@import url(../blocks/card/card.css);
+@import url(../blocks/card/__title/card__title.css);
+@import url(../blocks/card/__text/card__text.css);
+@import url(../blocks/card/__link/card__link.css);
