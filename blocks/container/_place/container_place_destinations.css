@@ -1,5 +1,0 @@
-.container_place_destinations {
-  display: grid;
-  grid-template: repeat(2, 1fr) / repeat(3, 440px);
-  gap: 20px;
-}
