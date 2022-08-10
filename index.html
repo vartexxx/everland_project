@@ -1,154 +1,208 @@
 <!DOCTYPE html>
 
 <html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap");
+    </style>
+    <title>Everland</title>
+  </head>
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./pages/index.css">
-        <style>
-            @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap');
-            </style>
-        <title>Everland</title>
-    </head>
+  <body class="body">
+    <header class="header"></header>
+    <!--Меню-->
+    <!--JS Меню-->
 
-    <body class="body">
+    <main class="main">
+      <section class="everland">
+        <!--Блок “Everland - социально-предпринимательский проект”-->
+        <!--JS слайдер-->
+      </section>
 
-        <header class="header"></header> <!--Меню--> <!--JS Меню-->
+      <section class="donations">
+        <!--Блок с кнопками для пожертвований-->
+        <!--JS вместе с Блоком "Поддержать"-->
+        <div class="main__container main__container_position_donations"></div>
+      </section>
 
-        <main class="main">
+      <section class="whom">
+        <!--Блок “Для кого”-->
+        <div class="main__container">
+          <h2 class="main__title">Для кого мы работаем</h2>
+          <div class="whom__container">
+            <div class="whom__element">
+              <img
+                src="./images/card1_icon.jpg"
+                alt="Иконка с коляской для инвалида"
+                class="whom__icon"
+              />
+              <div class="whom__text-container">
+                <h4 class="whom__title">Для людей с&nbsp;инвалидностью</h4>
+                <p class="whom__subtitle">
+                  Помогаем найти работу, пройти обучение, предоставляем разные
+                  виды поддержки
+                </p>
+              </div>
+              <div class="button__container">
+                <button type="button" class="whom__button whom__button_blue">
+                  Подробнее
+                </button>
+              </div>
+            </div>
 
-            <section class="everland"> <!--Блок “Everland - социально-предпринимательский проект”--> <!--JS слайдер-->
-                
-            </section>
+            <div class="whom__element">
+              <img
+                src="./images/card2_icon.jpg"
+                alt="Иконка с портфелем"
+                class="whom__icon"
+              />
+              <div class="whom__text-container">
+                <h4 class="whom__title">Для работодателей</h4>
+                <p class="whom__subtitle">
+                  Помогаем создать устойчивые инклюзивные команды, вовлекаем
+                  интеллектуальных волонтеров
+                </p>
+              </div>
+              <div class="button__container">
+                <button type="button" class="whom__button whom__button_orange">
+                  Подробнее
+                </button>
+              </div>
+            </div>
 
-            <section class="donations"> <!--Блок с кнопками для пожертвований--> <!--JS вместе с Блоком "Поддержать"-->
-                <div class="main__container main__container_position_donations"></div> 
-            </section>
+            <div class="whom__element">
+              <img
+                src="./images/card3_icon.jpg"
+                alt="Иконка с человечком"
+                class="whom__icon"
+              />
+              <div class="whom__text-container">
+                <h4 class="whom__title">Для КСО-партнеров</h4>
+                <p class="whom__subtitle">
+                  Помогаем найти работу, пройти обучение, предоставляем разные
+                  виды поддержки
+                </p>
+              </div>
+              <div class="button__container">
+                <button type="button" class="whom__button whom__button_green">
+                  Подробнее
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-            <section class="whom"> <!--Блок “Для кого”-->
-                <div class="main__container">
-                    <h2 class="main__title">Для кого мы работаем</h2>
-                    <div class="whom__container">
-                        <div class="whom__element">
-                            <img src="./images/card1_icon.jpg" alt="Иконка с коляской для инвалида" class="whom__icon">
-                            <div class="whom__text-container">
-                                <h4 class="whom__title">Для людей с&nbsp;инвалидностью</h4>
-                                <p class="whom__subtitle">Помогаем найти работу, пройти обучение, предоставляем разные виды поддержки</p>
-                            </div>
-                            <div class="button__container"><button type="button" class="whom__button whom__button_blue">Подробнее</button></div>
-                        </div>
+      <section class="destinations">
+        <div class="container">
+          <h2 class="title title_sz_h2">Наши направления</h2>
+        </div>
+        <div class="container container_place_destinations">
+          <div class="card card_color_light-orange">
+            <div class="card__description">
+              <h3 class="title title_sz_h3">
+                Доступность услуг<br />DisQuestion
+              </h3>
+              <p class="card__text">
+                Сервисы для бизнеса по повышению доступности услуг для
+                маломобильных клиентов ― контракты с крупнейшими компаниями в
+                России
+              </p>
+            </div>
+            <a class="card__link .card__link_disabled" href="#">Подробнее</a>
+          </div>
 
-                        <div class="whom__element">
-                            <img src="./images/card2_icon.jpg" alt="Иконка с портфелем" class="whom__icon">
-                            <div class="whom__text-container">
-                                <h4 class="whom__title">Для работодателей</h4>
-                                <p class="whom__subtitle">Помогаем создать устойчивые инклюзивные команды, вовлекаем интеллектуальных волонтеров</p>
-                            </div>
-                            <div class="button__container"><button type="button" class="whom__button whom__button_orange">Подробнее</button></div>
-                        </div>
+          <div class="card card_color_light-blue">
+            <div class="card__description">
+              <h3 class="title title_sz_h3">Трудоустройство</h3>
+              <p class="card__text">
+                Решение социальной проблемы с использованием предпринимательских
+                инструментов: оказываем услуги разным компаниям и НКО, таким
+                образом зарабатываем и даем работу людям с инвалидностью
+              </p>
+            </div>
+            <a class="card__link" href="#">Подробнее</a>
+          </div>
 
-                        <div class="whom__element">
-                            <img src="./images/card3_icon.jpg" alt="Иконка с человечком" class="whom__icon">
-                            <div class="whom__text-container">
-                                <h4 class="whom__title">Для КСО-партнеров</h4>
-                                <p class="whom__subtitle">Помогаем найти работу, пройти обучение, предоставляем разные виды поддержки</p>
-                            </div>
-                            <div class="button__container"><button type="button" class="whom__button whom__button_green">Подробнее</button></div>
-                        </div>
+          <div class="card card_color_light-green">
+            <div class="card__description">
+              <h3 class="title title_sz_h3">
+                Биржа проектов<br />и готовые решения
+              </h3>
+              <p class="card__text">
+                ИТ-система для интеграции в открытый рынок труда людей с
+                инвалидностью в качестве самозанятых и в рамках трудоустройства
+                в другие компании
+              </p>
+            </div>
+            <a class="card__link" href="#">Подробнее</a>
+          </div>
 
-                    </div>
-                </div>
-            </section>
+          <div class="card card_color_light-blue">
+            <div class="card__description">
+              <h3 class="title title_sz_h3">Агентство</h3>
+              <p class="card__text">
+                Услуги специалистов с инвалидностью для крупных компаний
+                (дизайн, право, контент и другие)
+              </p>
+            </div>
+            <a class="card__link" href="#">Подробнее</a>
+          </div>
 
-            <section class="destinations">
-                <div class="container">
-                  <h2 class="title title_sz_h2">Наши направления</h2>
-                </div>
-                <div class="container container_place_destinations">
-                  <div class="card card_color_light-orange">
-                    <div class="card__description">
-                      <h3 class="title title_sz_h3">Доступность услуг<br>DisQuestion</h3>
-                      <p class="card__text">Сервисы для бизнеса по повышению доступности услуг для маломобильных клиентов ― контракты с крупнейшими компаниями в России</p>
-                    </div>
-                    <a class="card__link .card__link_disabled" href="#">Подробнее</a>
-                  </div>
+          <div class="card card_color_light-green">
+            <div class="card__description">
+              <h3 class="title title_sz_h3">Коворкинг</h3>
+              <p class="card__text">
+                Уникальное пространство, в котором специалисты с инвалидностью
+                могут работать и офлайн – приходить, участвовать в
+                образовательных мероприятиях, встречаться с заказчиками,
+                работать в команде
+              </p>
+            </div>
+            <a class="card__link" href="#">Подробнее</a>
+          </div>
 
-                  <div class="card card_color_light-blue">
-                    <div class="card__description">
-                      <h3 class="title title_sz_h3">Трудоустройство</h3>
-                      <p class="card__text">Решение социальной проблемы с использованием предпринимательских инструментов: оказываем услуги разным компаниям и НКО, таким образом зарабатываем и даем работу людям с инвалидностью</p>
-                    </div>
-                    <a class="card__link" href="#">Подробнее</a>
-                  </div>
+          <div class="card card_color_light-orange">
+            <div class="card__description">
+              <h3 class="title title_sz_h3">Для людей<br />с инвалидностью</h3>
+              <p class="card__text">
+                Помогаем найти работу, пройти обучение, предоставляем разные
+                виды поддержки
+              </p>
+            </div>
+            <a class="card__link" href="#">Подробнее</a>
+          </div>
+        </div>
+      </section>
 
-                  <div class="card card_color_light-green">
-                    <div class="card__description">
-                      <h3 class="title title_sz_h3">Биржа проектов<br>и готовые решения</h3>
-                      <p class="card__text">ИТ-система для интеграции в открытый рынок труда людей с инвалидностью  в качестве самозанятых и в рамках трудоустройства в другие компании</p>
-                    </div>
-                    <a class="card__link" href="#">Подробнее</a>
-                  </div>
+      <section class="advantages">
+        <!--Блок “Преимущества”-->
+        <!--JS Аккордион-->
+      </section>
 
-                  <div class="card card_color_light-blue">
-                    <div class="card__description">
-                      <h3 class="title title_sz_h3">Агентство</h3>
-                      <p class="card__text">Услуги специалистов с инвалидностью для крупных компаний (дизайн, право, контент и другие)</p>
-                    </div>
-                    <a class="card__link" href="#">Подробнее</a>
-                  </div>
+      <section class="numbers"><!--Блок “Основные цифры”--></section>
 
-                  <div class="card card_color_light-green">
-                    <div class="card__description">
-                      <h3 class="title title_sz_h3">Коворкинг</h3>
-                      <p class="card__text">Уникальное пространство, в котором специалисты с инвалидностью могут работать и офлайн – приходить, участвовать в образовательных мероприятиях, встречаться с заказчиками, работать в команде</p>
-                    </div>
-                    <a class="card__link" href="#">Подробнее</a>
-                  </div>
+      <section class="projects">
+        <!--Блок “Спецпроекты”-->
+        <!--JS Слайдер-->
+      </section>
 
-                  <div class="card card_color_light-orange">
-                    <div class="card__description">
-                      <h3 class="title title_sz_h3">Для людей<br>с инвалидностью</h3>
-                      <p class="card__text">Помогаем найти работу, пройти обучение, предоставляем разные виды поддержки</p>
-                    </div>
-                    <a class="card__link" href="#">Подробнее</a>
-                  </div>
-                </div>
+      <section class="stories"><!--Блок “Истории”--></section>
 
-            </section>
+      <section class="agency"><!--Блок “Агентство”--></section>
 
-            <section class="advantages"> <!--Блок “Преимущества”--> <!--JS Аккордион-->
-                
-            </section>
+      <section class="news"><!--Блок “Новости”--></section>
 
-            <section class="numbers"> <!--Блок “Основные цифры”-->
-                
-            </section>
+      <section class="support">
+        <!--Блок “Поддержать”-->
+        <!--Скролл на JS с блока с кнопками пожертвований-->
+      </section>
+    </main>
 
-            <section class="projects"> <!--Блок “Спецпроекты”--> <!--JS Слайдер-->
-                
-            </section>
-
-            <section class="stories"> <!--Блок “Истории”-->
-                
-            </section>
-
-            <section class="agency"> <!--Блок “Агентство”-->
-                
-            </section>
-
-            <section class="news"> <!--Блок “Новости”-->
-                
-            </section>
-
-            <section class="support"> <!--Блок “Поддержать”--> <!--Скролл на JS с блока с кнопками пожертвований-->
-                
-            </section> 
-
-        </main>
-
-        <footer class="footer"></footer> <!--Футер-->
-
-    </body>
-
+    <footer class="footer"></footer>
+    <!--Футер-->
+  </body>
 </html>
