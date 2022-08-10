@@ -1,0 +1,10 @@
+.card {
+  width: 440px;
+  min-height: 428px;
+  border-radius: 30px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
