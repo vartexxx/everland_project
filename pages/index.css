@@ -3,6 +3,7 @@
 @import url(../blocks/body/body.css);
 @import url(../blocks/container/container.css);
 @import url(../blocks/container/_place/container_place_destinations.css);
+@import url(../blocks/container/_place/container_place_donations.css);
 @import url(../blocks/title/title.css);
 @import url(../blocks/title/_sz/title_sz_h2.css);
 @import url(../blocks/title/_sz/title_sz_h3.css);
@@ -30,3 +31,7 @@
 @import url(../blocks/whom/__button/_green/whom__button_green.css);
 @import url(../blocks/whom/__button/_orange/whom__button_orange.css);
 @import url(../blocks/whom/__text-container/whom__text-container.css);
+
+
+/* Подключение блока donations-link, кнопка Поддержать */
+@import url(../blocks/donations-link/donations-link.css);
