@@ -8,7 +8,7 @@
 
 @media screen and (max-width: 1439px) {
   .container_place_destinations {
-    grid-template: repeat(3, max-content) / repeat(2, 334px);
+    grid-template: repeat(3, max-content) / repeat(2, 440px);
   }
 
   .container_place_destinations .card:nth-child(1) {
@@ -36,7 +36,27 @@
   }
 }
 
+@media screen and (max-width: 1023px) {
+  .container_place_destinations {
+    grid-template: repeat(3, max-content) / repeat(2, 334px);
+  }
+}
+
 @media screen and (max-width: 767px) {
+  .container_place_destinations {
+    grid-template: repeat(6, max-content) / 334px;
+  }
+
+  .container_place_destinations .card:nth-child(3) {
+    order: 3;
+  }
+
+  .container_place_destinations .card:nth-child(4) {
+    order: 4;
+  }
+}
+
+@media screen and (max-width: 479px) {
   .container_place_destinations {
     grid-template: repeat(6, max-content) / 300px;
     gap: 16px;

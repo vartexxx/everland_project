@@ -9,17 +9,17 @@
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 1439px) {
+@media screen and (max-width: 1023px) {
   .card {
     width: 334px;
     min-height: 291px;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 479px) {
   .card {
     width: 300px;
-    padding: 24px;
     min-height: 200px;
+    padding: 24px;
   }
 }
