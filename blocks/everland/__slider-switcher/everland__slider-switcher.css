@@ -1,0 +1,7 @@
+.everland__slider-switcher {
+    margin: 20px calc(826px - 543px) 0px 0px;
+    grid-area: subtitle-slider;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

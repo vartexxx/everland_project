@@ -1,0 +1,13 @@
+.everland__image-container {
+    grid-area: image;
+    width: 520px;
+    height: 565px;
+    background-image:
+    url(../../../images/everland__image2.jpg),
+    url(../../../images/everland__image1.jpg);
+    background-repeat: no-repeat;
+    background-size: 392px 407px, 352px 315px;
+    background-position: left bottom, right top;
+    border-radius: 10px;
+    margin: 0;
+}

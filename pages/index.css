@@ -2,18 +2,19 @@
 
 @import url(../blocks/body/body.css);
 
+@import url(../blocks/main/main.css);
 @import url(../blocks/main/__title/main__title.css);
 @import url(../blocks/main/__container/main__container.css);
 
-@import url(../blocks/whom/whom.css);
-@import url(../blocks/whom/__button/whom__button.css);
-@import url(../blocks/whom/__container/whom__container.css);
-@import url(../blocks/whom/__element/whom__element.css);
-@import url(../blocks/whom/__icon/whom__icon.css);
-@import url(../blocks/whom/__subtitle/whom__subtitle.css);
-@import url(../blocks/whom/__title/whom__title.css);
-@import url(../blocks/button/__container/button__container.css);
-@import url(../blocks/whom/__button/_blue/whom__button_blue.css);
-@import url(../blocks/whom/__button/_green/whom__button_green.css);
-@import url(../blocks/whom/__button/_orange/whom__button_orange.css);
-@import url(../blocks/whom/__text-container/whom__text-container.css);
+@import url(../blocks/everland/everland.css);
+@import url(../blocks/everland/__button/everland__button.css);
+@import url(../blocks/everland/__button/_left/everland__button_left.css);
+@import url(../blocks/everland/__button/_right/everland__button_right.css);
+@import url(../blocks/everland/__container/everland__container.css);
+@import url(../blocks/everland/__image-container/everland__image-container.css);
+@import url(../blocks/everland/__slider-number/everland__slider-number.css);
+@import url(../blocks/everland/__slider-switcher/everland__slider-switcher.css);
+@import url(../blocks/everland/__subtitle/everland__subtitle.css);
+@import url(../blocks/everland/__title/everland__title.css);
+@import url(../blocks/everland/__span/everland__span.css);
+@import url(../blocks/everland/__slider/everland__slider.css);
