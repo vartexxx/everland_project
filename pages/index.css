@@ -2,18 +2,20 @@
 
 @import url(../blocks/body/body.css);
 
-@import url(../blocks/main/__title/main__title.css);
+@import url(../blocks/main/main.css);
 @import url(../blocks/main/__container/main__container.css);
+@import url(../blocks/main/__title/main__title.css);
 
 @import url(../blocks/whom/whom.css);
-@import url(../blocks/whom/__button/whom__button.css);
 @import url(../blocks/whom/__container/whom__container.css);
 @import url(../blocks/whom/__element/whom__element.css);
-@import url(../blocks/whom/__icon/whom__icon.css);
-@import url(../blocks/whom/__subtitle/whom__subtitle.css);
+@import url(../blocks/whom/__elements/whom__elements.css);
 @import url(../blocks/whom/__title/whom__title.css);
-@import url(../blocks/button/__container/button__container.css);
-@import url(../blocks/whom/__button/_blue/whom__button_blue.css);
-@import url(../blocks/whom/__button/_green/whom__button_green.css);
-@import url(../blocks/whom/__button/_orange/whom__button_orange.css);
-@import url(../blocks/whom/__text-container/whom__text-container.css);
+@import url(../blocks/whom/__icon/whom__icon.css);
+@import url(../blocks/link/link.css);
+@import url(../blocks/link/_blue/link_blue.css);
+@import url(../blocks/link/_green/link_green.css);
+@import url(../blocks/link/_orange/link_orange.css);
+@import url(../blocks/link/_disable/link_disable.css);
+@import url(../blocks/whom/__title/whom__title.css);
+@import url(../blocks/whom/__subtitle/whom__subtitle.css);

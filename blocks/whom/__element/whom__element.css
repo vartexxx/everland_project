@@ -1,7 +1,21 @@
 .whom__element {
     background-color: white;
     border-radius: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    display: grid;
+    grid-template: 1fr fit-content(82px) 1fr 1fr / 1fr;
+}
+
+@media screen and (max-width: 1439px) {
+    .whom__element {
+        grid-template-columns: 450px;
+        grid-template-rows: 1fr auto auto 1fr;
+        border-radius: 20px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .whom__element {
+        grid-template-columns: 300px;
+        grid-template-rows: 1fr auto auto 1fr;
+    }
 }

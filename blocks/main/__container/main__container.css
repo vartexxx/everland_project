@@ -1,5 +1,4 @@
 .main__container {
-    margin: 0 40px 0 40px;
-    display: flex;
-    flex-direction: column;
+    max-width: 1360px;
+    margin: 0 auto;
 }
