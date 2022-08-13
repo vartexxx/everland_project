@@ -24,4 +24,14 @@
 .everland__button:disabled {
     background-color: #C4C4C4;
     background-image: url(../../../images/arrow__disabled.svg);
+    background-size: 17px 17px;
+}
+
+@media screen and (max-width: 1439px) {
+    .everland__button {
+        width: 24px;
+        height: 24px;
+        border-radius: 6px;
+        background-size: 10px 10px;
+    }
 }

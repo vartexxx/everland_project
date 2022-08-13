@@ -1,7 +1,0 @@
-.everland__container {
-    display: grid;
-    grid-template: 258px 1fr / fit-content(826px) 1fr;
-    grid-template-areas:
-    'title image'
-    'subtitle-slider image';
-}

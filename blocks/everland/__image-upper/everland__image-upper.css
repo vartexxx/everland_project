@@ -1,0 +1,19 @@
+.everland__image-upper {
+    grid-area: item-1;
+    width: 352px;
+    height: 315px;
+}
+
+@media screen and (max-width: 1439px) {
+    .everland__image-upper {
+        width: 184px;
+        height: 152px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .everland__image-upper {
+        width: 190px;
+        height: 144px;
+    }
+}

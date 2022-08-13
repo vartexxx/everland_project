@@ -8,3 +8,18 @@
     padding: 0;
     grid-area: title;
 }
+
+@media screen and (max-width: 1439px) {
+    .everland__title {
+        font-size: 38px;
+        line-height: 45.6px;
+        letter-spacing: -0.03em;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .everland__title {
+        font-size: 28px;
+        line-height: 33.6px;
+    }
+}
