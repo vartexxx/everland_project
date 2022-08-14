@@ -1,0 +1,28 @@
+.advantages__item {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: calc(100% - 40px * 2);
+  margin: 0 auto;
+  padding: 0;
+}
+
+@media screen and (max-width: 936px) {
+  .advantages__item {
+    flex-direction: column;
+    width: 100%;
+    width: calc(100% - 40px * 2);
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .advantages__item {
+    width: calc(100% - 20px * 2);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .advantages__item {
+    width: calc(100% - 10px * 2);
+  }
+}

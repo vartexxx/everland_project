@@ -1,0 +1,46 @@
+.advantages__name {
+  padding: 30px 0 30px 20px;
+  margin: 0;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 120%;
+  color: var(--black);
+}
+
+@media screen and (max-width: 1080px) {
+  .advantages__name {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 985px) {
+  .advantages__name {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 936px) {
+  .advantages__name {
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 371px) {
+  .advantages__name {
+    padding: 16px 0px 16px 16px;
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 345px) {
+  .advantages__name {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .advantages__name {
+    font-size: 18px;
+  }
+}

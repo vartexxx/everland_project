@@ -1,0 +1,12 @@
+.advantages__accordions {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 670px;
+}
+
+@media screen and (max-width: 320px) {
+  .advantages__accordions {
+    gap: 16px;
+  }
+}

@@ -1,5 +1,5 @@
 @import url(../vendor/normalize.css);
-
+@import url(../root/root.css);
 @import url(../blocks/body/body.css);
 
 @import url(../blocks/main/__title/main__title.css);
@@ -17,3 +17,25 @@
 @import url(../blocks/whom/__button/_green/whom__button_green.css);
 @import url(../blocks/whom/__button/_orange/whom__button_orange.css);
 @import url(../blocks/whom/__text-container/whom__text-container.css);
+@import url(../blocks/advantages/advantages.css);
+@import url(../blocks/advantages/__item/advantages__item.css);
+@import url(../blocks/advantages/__accordions/advantages__accordions.css);
+@import url(../blocks/advantages/__accordion/advantages__accordion.css);
+@import url(../blocks/advantages/__name/advantages__name.css);
+@import url(../blocks/advantages/__header/advantages__header.css);
+@import url(../blocks/advantages/__text/advantages__text.css);
+@import url(../blocks/advantages/__text/_opened/advantages__text_opened.css);
+@import url(../blocks/advantages/__word/advantages__word.css);
+@import url(../blocks/title/title.css);
+@import url(../blocks/numbers/button/btn.css);
+@import url(../blocks/numbers/button/_type/btn_type_close.css);
+@import url(../blocks/numbers/numbers.css);
+@import url(../blocks/numbers/__container/numbers__container.css);
+@import url(../blocks/numbers/__items/numbers__items.css);
+@import url(../blocks/numbers/__photo/numbers__photo.css);
+@import url(../blocks/numbers/__blocks/numbers__blocks.css);
+@import url(../blocks/numbers/__block/numbers__block.css);
+@import url(../blocks/numbers/__header/numbers__header.css);
+@import url(../blocks/numbers/__header/_colour/numbers__header_colour_blue.css);
+@import url(../blocks/numbers/__text/numbers__text.css);
+@import url(../blocks/forthcoming/forthcoming.css);

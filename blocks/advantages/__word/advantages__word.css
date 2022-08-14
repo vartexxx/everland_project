@@ -1,0 +1,11 @@
+@media screen and (max-width: 768px) {
+  .advantages__word::after {
+    content: ' нашей ';
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .advantages__word::after {
+    content: ' ';
+  }
+}
