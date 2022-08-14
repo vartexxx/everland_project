@@ -1,5 +1,9 @@
 .card__text {
   margin: 20px 0 0;
-  font-size: 20px;
-  line-height: 1.3;
+}
+
+@media screen and (max-width: 1023px) {
+  .card__text {
+    margin: 10px 0 20px;
+  }
 }

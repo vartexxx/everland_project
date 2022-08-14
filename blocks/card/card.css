@@ -8,3 +8,18 @@
   justify-content: space-between;
   box-sizing: border-box;
 }
+
+@media screen and (max-width: 1023px) {
+  .card {
+    width: 334px;
+    min-height: 291px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .card {
+    width: 300px;
+    min-height: 200px;
+    padding: 24px;
+  }
+}
