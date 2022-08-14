@@ -32,10 +32,13 @@
 @import url(../blocks/whom/__button/_orange/whom__button_orange.css);
 @import url(../blocks/whom/__text-container/whom__text-container.css);
 
-
 /* Подключение блока donations-link, кнопка Поддержать */
 @import url(../blocks/donations-link/donations-link.css);
+
+/* Подключение блока donations и его элементов */
+@import url(../blocks/donations/__price/donations__price.css);
 
 /* Подлкючение блока form, секции Поддержать */
 @import url(../blocks/form/form.css);
 @import url(../blocks/form/__element/form__element.css);
+@import url(../blocks/form/__castom-radio/form__castom-radio.css);

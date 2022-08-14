@@ -1,0 +1,9 @@
+.form__castom-radio {
+  display: flex;
+  width: 159px;
+  height: 48px;
+  background: #ffffff;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+}
