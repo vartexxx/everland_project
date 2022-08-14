@@ -35,3 +35,7 @@
 
 /* Подключение блока donations-link, кнопка Поддержать */
 @import url(../blocks/donations-link/donations-link.css);
+
+/* Подлкючение блока form, секции Поддержать */
+@import url(../blocks/form/form.css);
+@import url(../blocks/form/__element/form__element.css);
