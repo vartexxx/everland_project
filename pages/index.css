@@ -48,7 +48,9 @@
 @import url(../blocks/form/__fieldset/_place/form__fieldset_place_pay-type.css);
 @import url(../blocks/form/__fieldset/_place/form__fieldset_place_donation-price.css);
 @import url(../blocks/form/__fieldset/_place/form__fieldset_place_pay-method.css);
+@import url(../blocks/form/__fieldset/_place/form__fieldset_place_pay-date.css);
 @import url(../blocks/form/__element/form__element.css);
+@import url(../blocks/form/__input/form__input.css);
 @import url(../blocks/form/__button/form__button.css);
 @import url(../blocks/form/__title/form__title.css);
 @import url(../blocks/form/__line/form__line.css);
