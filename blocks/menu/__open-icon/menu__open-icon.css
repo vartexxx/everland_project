@@ -1,0 +1,7 @@
+.menu__open-icon {
+  justify-self: center;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}

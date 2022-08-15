@@ -1,0 +1,27 @@
+.menu__important-link {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 1.2;
+  color: #333333;
+}
+
+@media (max-width: 1279px) {
+  .menu__important-link {
+    font-size: 29px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .menu__important-link {
+    font-size: 20px;
+    max-width: 188px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .menu__important-link {
+    font-size: 18px;
+  }
+}
