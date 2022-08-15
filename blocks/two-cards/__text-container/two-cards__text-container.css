@@ -1,0 +1,7 @@
+.two-cards__text-container {
+    margin: 30px 30px 0px 0px;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto;
+    row-gap: 20px;
+}

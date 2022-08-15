@@ -1,0 +1,10 @@
+.stories__container {
+    padding: 150px 0px 150px 0px;
+    display: grid;
+    grid-template: auto 1fr 1fr / 1fr;
+    grid-template-areas: 
+    'info-container'
+    'cards'
+    'two-cards';
+    row-gap: 50px;
+}

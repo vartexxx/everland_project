@@ -1,0 +1,7 @@
+.stories__card-text {
+    grid-row: 1;
+    grid-column: 3;
+    display: grid;
+    grid-template: repeat(3, auto) / auto;
+    row-gap: 20px;
+}

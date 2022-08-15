@@ -1,0 +1,6 @@
+.two-cards__paragraph {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: stretch;
+}

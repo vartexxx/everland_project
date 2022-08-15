@@ -1,0 +1,8 @@
+.two-cards {
+    grid-area: two-cards;
+    display: grid;
+    grid-template-columns: repeat(2, 670px);
+    grid-template-rows: 285px;
+    column-gap: 20px;
+    margin-top: 50px;
+}

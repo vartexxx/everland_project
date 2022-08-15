@@ -1,3 +1,39 @@
 @import url(../vendor/normalize.css);
 
 @import url(../blocks/body/body.css);
+
+@import url(../blocks/main/main.css);
+@import url(../blocks/main/__container/main__container.css);
+@import url(../blocks/main/__title/main__title.css);
+
+@import url(../blocks/stories/stories.css);
+@import url(../blocks/main/__stories/main__stories.css);
+@import url(../blocks/stories/__container/stories__container.css);
+@import url(../blocks/stories/__title/stories__title.css);
+@import url(../blocks/stories/__info-container/stories__info-container.css);
+@import url(../blocks/stories/__link/stories__link.css);
+@import url(../blocks/link/_disable/link_disable.css);
+@import url(../blocks/stories/__cards/stories__cards.css);
+@import url(../blocks/stories/__card/stories__card.css);
+@import url(../blocks/stories/__image/stories__image.css);
+@import url(../blocks/stories/__card-link/stories__card-link.css);
+@import url(../blocks/stories/__text/stories__text.css);
+@import url(../blocks/stories/__quotation/stories__quotation.css);
+@import url(../blocks/stories/__card-link/_blue/stories__card-link_blue.css);
+@import url(../blocks/stories/__card-link/_disable/stories__card-link_disable.css);
+@import url(../blocks/stories/__card-text/stories__card-text.css);
+@import url(../blocks/stories/__quotation/_reverse/stories__quotation_reverse.css);
+@import url(../blocks/stories/__image/_reverse/stories__image_reverse.css);
+@import url(../blocks/stories/__card/_reverse/stories__card_reverse.css);
+@import url(../blocks/stories/__card-text/_reverse/stories__card-text_reverse.css);
+
+@import url(../blocks/two-cards/two-cards.css);
+@import url(../blocks/two-cards/__element/two-cards__element.css);
+@import url(../blocks/two-cards/__image/two-cards__image.css);
+@import url(../blocks/two-cards/__paragraph/two-cards__paragraph.css);
+@import url(../blocks/two-cards/__subtitle/two-cards__subtitle.css);
+@import url(../blocks/two-cards/__title/two-cards__title.css);
+@import url(../blocks/two-cards/__link/two-cards__link.css);
+@import url(../blocks/two-cards/__text-container/two-cards__text-container.css);
+@import url(../blocks/two-cards/__play/two-cards__play.css);
+@import url(../blocks/two-cards/__icon-play/two-cards__icon-play.css);

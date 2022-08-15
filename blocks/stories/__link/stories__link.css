@@ -1,0 +1,30 @@
+.stories__link {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 120%;
+    font-style: normal;
+    display: block;
+    color: #0C4BA0;
+    width: 194px;
+    height: 48px;
+    border: 1px solid #0C4BA0;
+    border-radius: 10px;
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: color .3s linear, background-image .3s linear;
+    padding: 12px 16px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.stories__link:hover {
+    color: #00275C;
+    border: 1px solid #00275C;
+}
+
+.stories__link:active {
+    color: #fff;
+    border: none;
+    background-color: #00275C;
+}

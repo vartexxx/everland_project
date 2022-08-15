@@ -1,0 +1,5 @@
+.stories__card-text_reverse {
+    grid-row: 1;
+    grid-column: 2;
+    margin: 0px 80px 0px 0px;
+}
