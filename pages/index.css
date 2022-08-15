@@ -46,11 +46,12 @@
 @import url(../blocks/form/_place/form_place_support.css);
 @import url(../blocks/form/__fieldset/form__fieldset.css);
 @import url(../blocks/form/__fieldset/_place/form__fieldset_place_pay-type.css);
+@import url(../blocks/form/__fieldset/_place/form__fieldset_place_donation-price.css);
 @import url(../blocks/form/__element/form__element.css);
 @import url(../blocks/form/__title/form__title.css);
 @import url(../blocks/form/__line/form__line.css);
 @import url(../blocks/form/__castom-radio/form__castom-radio.css);
-@import url(../blocks/form/__castom-radio/_place/form__castom-radio_place_support.css);
+@import url(../blocks/form/__castom-radio/_place/form__castom-radio_place_pay-type.css);
 @import url(../blocks/form/__element-label/form__element-label.css);
 @import url(../blocks/form/__element-label/_grid-position/form__element-label_grid-position_price250.css);
 @import url(../blocks/form/__element-label/_grid-position/form__element-label_grid-position_price500.css);
@@ -63,3 +64,4 @@
 @import url(../blocks/support/__title/support__title.css);
 @import url(../blocks/support/__list/support__list.css);
 @import url(../blocks/support/__list-img/support__list-img.css);
+@import url(../blocks/support/__info/support__info.css);

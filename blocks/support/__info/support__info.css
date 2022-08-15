@@ -1,0 +1,7 @@
+.support__info {
+  font-size: 18px;
+  line-height: 130%;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #333;
+  margin: 16px 0 24px 0;
+}

@@ -1,5 +1,9 @@
 .support__list {
+  margin-top: 38.5px;
+  margin-left: 117px;
   display: flex;
-  flex-direction: column;  
+  flex-direction: column;
+  align-items: center;
   max-width: 488px;
+  text-align: center;
 }

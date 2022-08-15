@@ -1,0 +1,37 @@
+.form__fieldset_place_donation-price {
+  padding: 16px 0;
+  display: grid;
+  grid-template-columns: repeat(4, 159px);
+  grid-template-areas:
+    "price250 price500 price750 price1000 "
+    "price-other . . .";
+  grid-gap: 5px;
+}
+
+/* @media screen and (max-width: 1439px) {
+  .form__fieldset_place_donation-price {
+    grid-template-columns: repeat(4, 100px) 130px;
+    grid-gap: 20px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .form__fieldset_place_donation-price {
+    grid-template-columns: repeat(4, 75px) 135px;
+    grid-gap: 10px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .form__fieldset_place_donation-price {
+    padding-bottom: 32px;
+    grid-gap: 16px;
+    grid-template-columns: repeat(2, 122px);
+    grid-template-rows: repeat(3, 44px);
+    grid-template-areas:
+      "price250 price500"
+      "price750 price1000"
+      "price-other .";
+  }
+}
+ */
