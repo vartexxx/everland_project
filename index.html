@@ -27,131 +27,87 @@
         <!--JS вместе с Блоком "Поддержать"-->
         <div class="container container_place_donations">
           <form class="form form_place_donations">
-            <label class="form__element-label form__element-label_grid-position_price250">
+            <label
+              class="form__element-label form__element-label_grid-position_price250"
+            >
               <input
                 type="radio"
                 class="form__element"
                 name="donation"
                 id="donation_250"
               />
-              <span class="form__castom-radio form__castom-radio_place_donations">
+              <span
+                class="form__castom-radio form__castom-radio_place_donations"
+              >
                 <span class="donations__price">250₽</span>
               </span>
             </label>
-            <label class="form__element-label form__element-label_grid-position_price500">
+            <label
+              class="form__element-label form__element-label_grid-position_price500"
+            >
               <input
                 type="radio"
                 class="form__element"
                 name="donation"
                 id="donation_500"
               />
-              <span class="form__castom-radio form__castom-radio_place_donations">
+              <span
+                class="form__castom-radio form__castom-radio_place_donations"
+              >
                 <span class="donations__price">500₽</span>
               </span>
             </label>
-            <label class="form__element-label form__element-label_grid-position_price750">
+            <label
+              class="form__element-label form__element-label_grid-position_price750"
+            >
               <input
                 type="radio"
                 class="form__element"
                 name="donation"
                 id="donation_750"
               />
-              <span class="form__castom-radio form__castom-radio_place_donations">
+              <span
+                class="form__castom-radio form__castom-radio_place_donations"
+              >
                 <span class="donations__price">750₽</span>
               </span>
             </label>
-            <label class="form__element-label form__element-label_grid-position_price1000">
+            <label
+              class="form__element-label form__element-label_grid-position_price1000"
+            >
               <input
                 type="radio"
                 class="form__element"
                 name="donation"
                 id="donation_1000"
               />
-              <span class="form__castom-radio form__castom-radio_place_donations">
+              <span
+                class="form__castom-radio form__castom-radio_place_donations"
+              >
                 <span class="donations__price">1000₽</span>
               </span>
             </label>
-            <label class="form__element-label form__element-label_grid-position_price-other">
+            <label
+              class="form__element-label form__element-label_grid-position_price-other"
+            >
               <input
                 type="radio"
                 class="form__element"
                 name="donation"
                 id="donation_other"
               />
-              <span class="form__castom-radio form__castom-radio_place_donations">
+              <span
+                class="form__castom-radio form__castom-radio_place_donations"
+              >
                 <span class="donations__price">Другое</span>
               </span>
             </label>
           </form>
-          <a href="#" class="donations-link donations-link_place_donations">Поддержать</a>
-        </div>
-      </section>
-
-      <section class="whom">
-        <!--Блок “Для кого”-->
-        <div class="main__container">
-          <h2 class="main__title">Для кого мы работаем</h2>
-          <div class="whom__container">
-            <div class="whom__element">
-              <img
-                src="./images/card1_icon.jpg"
-                alt="Иконка с коляской для инвалида"
-                class="whom__icon"
-              />
-              <div class="whom__text-container">
-                <h4 class="whom__title">Для людей с&nbsp;инвалидностью</h4>
-                <p class="whom__subtitle">
-                  Помогаем найти работу, пройти обучение, предоставляем разные
-                  виды поддержки
-                </p>
-              </div>
-              <div class="button__container">
-                <button type="button" class="whom__button whom__button_blue">
-                  Подробнее
-                </button>
-              </div>
-            </div>
-
-            <div class="whom__element">
-              <img
-                src="./images/card2_icon.jpg"
-                alt="Иконка с портфелем"
-                class="whom__icon"
-              />
-              <div class="whom__text-container">
-                <h4 class="whom__title">Для работодателей</h4>
-                <p class="whom__subtitle">
-                  Помогаем создать устойчивые инклюзивные команды, вовлекаем
-                  интеллектуальных волонтеров
-                </p>
-              </div>
-              <div class="button__container">
-                <button type="button" class="whom__button whom__button_orange">
-                  Подробнее
-                </button>
-              </div>
-            </div>
-
-            <div class="whom__element">
-              <img
-                src="./images/card3_icon.jpg"
-                alt="Иконка с человечком"
-                class="whom__icon"
-              />
-              <div class="whom__text-container">
-                <h4 class="whom__title">Для КСО-партнеров</h4>
-                <p class="whom__subtitle">
-                  Помогаем найти работу, пройти обучение, предоставляем разные
-                  виды поддержки
-                </p>
-              </div>
-              <div class="button__container">
-                <button type="button" class="whom__button whom__button_green">
-                  Подробнее
-                </button>
-              </div>
-            </div>
-          </div>
+          <a
+            href="#support"
+            class="donations-link donations-link_place_donations"
+            >Поддержать</a
+          >
         </div>
       </section>
 
@@ -259,9 +215,62 @@
 
       <section class="news"><!--Блок “Новости”--></section>
 
-      <section class="support">
+      <section class="support" id="support">
         <!--Блок “Поддержать”-->
-        <!--Скролл на JS с блока с кнопками пожертвований-->
+        <div class="container">
+          <h2 class="title title_sz_h2 large-screen">Поддержите нас</h2>
+        </div>
+        <div class="container container_place_support">
+          <form class="form form_place_support">
+            <fieldset class="form__fieldset form__fieldset_place_pay-type">
+              <label class="form__element-label">
+                <input
+                  type="radio"
+                  class="form__element"
+                  name="support"
+                  id="ewerymonth"
+                  checked
+                />
+                <span
+                  class="form__castom-radio form__castom-radio_place_support"
+                >
+                  <span class="donations__price">Ежемесячно</span>
+                </span>
+              </label>
+              <label class="form__element-label">
+                <input
+                  type="radio"
+                  class="form__element"
+                  name="support"
+                  id="one-time"
+                />
+                <span
+                  class="form__castom-radio form__castom-radio_place_support"
+                >
+                  <span class="donations__price">Разово</span>
+                </span>
+              </label>
+            </fieldset>
+            <div class="form__title">
+              <div class="form__line"></div>
+              <h4 class="title title_sz_h4 support__title">
+                <nobr>Размер пожертвования</nobr>
+              </h4>
+              <div class="form__line"></div>
+            </div>
+          </form>
+          <div class="support__list">
+            <h2 class="title title_sz_h3">
+              Everland создается силами многих. Мы&nbsp;благодарны каждому
+              за&nbsp;поддержку!
+            </h2>
+            <img
+              class="support__list-img"
+              src="./images/support_img.svg"
+              alt="Список пожертвований"
+            />
+          </div>
+        </div>
       </section>
     </main>
 

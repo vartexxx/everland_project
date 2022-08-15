@@ -1,7 +1,7 @@
 .form_place_donations {
+  display: grid;
   grid-template-columns: repeat(4, 159px) 211px;
-  grid-template-areas:
-    "price250 price500 price750 price1000 price-other";    
+  grid-template-areas: "price250 price500 price750 price1000 price-other";
   grid-gap: 40px;
 }
 
