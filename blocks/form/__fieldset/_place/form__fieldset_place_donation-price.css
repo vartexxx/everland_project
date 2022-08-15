@@ -4,8 +4,9 @@
   grid-template-columns: repeat(4, 159px);
   grid-template-areas:
     "price250 price500 price750 price1000 "
-    "price-other . . .";
-  grid-gap: 5px;
+    "price-other . . .";  
+  grid-column-gap: 5px;
+  grid-row-gap: 12px;
 }
 
 /* @media screen and (max-width: 1439px) {

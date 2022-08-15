@@ -1,0 +1,8 @@
+.form__fieldset_place_pay-method {
+  margin-left: auto;
+  padding: 16px 0 41px 0;
+  display: grid;
+  grid-template-columns: repeat(3, 186px) 20px;
+  grid-gap: 18px;
+  align-items: center;
+}
