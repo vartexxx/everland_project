@@ -1,0 +1,34 @@
+.title_sz_h2 {
+  font-size: 64px;
+  letter-spacing: -1%;
+}
+
+.title_sz_h2.small-screen {
+  display: none;
+}
+
+@media screen and (max-width: 1023px) {
+  .title_sz_h2 {
+    font-size: 36px;
+  }
+
+  .title_sz_h2.small-screen {
+    display: block;
+  }
+
+  .title_sz_h2.large-screen {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .title_sz_h2 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .title_sz_h2 {
+    font-size: 26px;
+  }
+}
