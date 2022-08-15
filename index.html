@@ -2,101 +2,206 @@
 
 <html lang="ru">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./pages/index.css">
-        <style>
-            @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap');
-            </style>
-        <title>Everland</title>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./pages/index.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap');
+    </style>
+    <title>Everland</title>
+</head>
 
-    <body class="body">
+<body class="body">
 
-        <header class="header"></header> <!--Меню--> <!--JS Меню-->
+    <header class="header"></header>
+    <!--Меню-->
+    <!--JS Меню-->
 
-        <main class="main">
+    <main class="main">
 
-            <section class="everland"> <!--Блок “Everland - социально-предпринимательский проект”--> <!--JS слайдер-->
-                
-            </section>
+        <section class="everland">
+            <!--Блок “Everland - социально-предпринимательский проект”-->
+            <!--JS слайдер-->
 
-            <section class="donations"> <!--Блок с кнопками для пожертвований--> <!--JS вместе с Блоком "Поддержать"-->
-                
-            </section>
+        </section>
 
-            <section class="whom"> <!--Блок “Для кого”-->
-                <div class="main__container">
-                    <h2 class="main__title">Для кого мы работаем</h2>
-                    <div class="whom__container">
-                        <div class="whom__element">
-                            <img src="./images/card1_icon.jpg" alt="Иконка с коляской для инвалида" class="whom__icon">
-                            <div class="whom__text-container">
-                                <h4 class="whom__title">Для людей с&nbsp;инвалидностью</h4>
-                                <p class="whom__subtitle">Помогаем найти работу, пройти обучение, предоставляем разные виды поддержки</p>
-                            </div>
-                            <div class="button__container"><button type="button" class="whom__button whom__button_blue">Подробнее</button></div>
+        <section class="donations">
+            <!--Блок с кнопками для пожертвований-->
+            <!--JS вместе с Блоком "Поддержать"-->
+
+        </section>
+
+        <section class="whom">
+            <!--Блок “Для кого”-->
+        </section>
+
+        <section class="directions">
+            <!--Блок “Направления работы”-->
+
+        </section>
+
+        <section class="advantages">
+            <!--Блок “Преимущества”-->
+            <!--JS Аккордион-->
+
+        </section>
+
+        <section class="numbers">
+            <!--Блок “Основные цифры”-->
+
+        </section>
+
+        <section class="projects">
+            <!--Блок “Спецпроекты”-->
+            <!--JS Слайдер-->
+            <div class="projects__slider-container">
+                <div class="sliders">
+
+                    <div class="slider slider_active" id="slide-1">
+                        <p class="slider__theme">Наши спецпроекты</p>
+                        <div class="slider__info">
+                            <h2 class="slider__title">Фотопроект <br> «Семья как семья»</h2>
+                            <p class="slider__text">Фотопроект Алексея Горшенина включает в себя восемь историй людей и
+                                семей, где один или оба супруга имеют инвалидность</p>
+                            <button class="button button_color_dark button_place_projects"><a
+                                    href=#></a>Посмотреть</button>
                         </div>
-
-                        <div class="whom__element">
-                            <img src="./images/card2_icon.jpg" alt="Иконка с портфелем" class="whom__icon">
-                            <div class="whom__text-container">
-                                <h4 class="whom__title">Для работодателей</h4>
-                                <p class="whom__subtitle">Помогаем создать устойчивые инклюзивные команды, вовлекаем интеллектуальных волонтеров</p>
-                            </div>
-                            <div class="button__container"><button type="button" class="whom__button whom__button_orange">Подробнее</button></div>
-                        </div>
-
-                        <div class="whom__element">
-                            <img src="./images/card3_icon.jpg" alt="Иконка с человечком" class="whom__icon">
-                            <div class="whom__text-container">
-                                <h4 class="whom__title">Для КСО-партнеров</h4>
-                                <p class="whom__subtitle">Помогаем найти работу, пройти обучение, предоставляем разные виды поддержки</p>
-                            </div>
-                            <div class="button__container"><button type="button" class="whom__button whom__button_green">Подробнее</button></div>
-                        </div>
-
+                        <img class='slider__image' src="images/projects.png" alt="Социальное фото">
                     </div>
+
+                    <div class="slider" id="slide-2">
+                        <p class="slider__theme">Наши спецпроекты</p>
+                        <div class="slider__info">
+                            <h2 class="slider__title">Lorem Ipsum</h2>
+                            <p class="slider__text">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,
+                                consectetur, adipisci velit..."</p>
+                            <button class="button button_color_dark button_place_projects"><a
+                                    href=#></a>Посмотреть</button>
+                        </div>
+                        <img class='slider__image' src="images/lorem-ipsum.png" alt="Социальное фото">
+                    </div>
+
+                    <div class="slider" id="slide-3">
+                        <p class="slider__theme">Наши спецпроекты</p>
+                        <div class="slider__info">
+                            <h2 class="slider__title">Фотопроект <br> «Семья как семья»</h2>
+                            <p class="slider__text">Фотопроект Алексея Горшенина включает в себя восемь историй людей и
+                                семей, где один или оба супруга имеют инвалидность</p>
+                            <button class="button button_color_dark button_place_projects"><a
+                                    href=#></a>Посмотреть</button>
+                        </div>
+                        <img class='slider__image' src="images/projects.png" alt="Социальное фото">
+                    </div>
+
+                    <div class="slider" id="slide-4">
+                        <p class="slider__theme">Наши спецпроекты</p>
+                        <div class="slider__info">
+                            <h2 class="slider__title">Фотопроект <br> «Семья как семья»</h2>
+                            <p class="slider__text">Фотопроект Алексея Горшенина включает в себя восемь историй людей и
+                                семей, где один или оба супруга имеют инвалидность</p>
+                            <button class="button button_color_dark button_place_projects"><a
+                                    href=#></a>Посмотреть</button>
+                        </div>
+                        <img class='slider__image' src="images/projects.png" alt="Социальное фото">
+                    </div>
+
+                    <div class="slider" id="slide-5">
+                        <p class="slider__theme">Наши спецпроекты</p>
+                        <div class="slider__info">
+                            <h2 class="slider__title">Lorem Ipsum</h2>
+                            <p class="slider__text">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,
+                                consectetur, adipisci velit..."</p>
+                            <button class="button button_color_dark button_place_projects"><a
+                                    href=#></a>Посмотреть</button>
+                        </div>
+                        <img class='slider__image' src="images/lorem-ipsum.png" alt="Социальное фото">
+                    </div>
+
+                    <div class="slider" id="slide-6">
+                        <p class="slider__theme">Наши спецпроекты</p>
+                        <div class="slider__info">
+                            <h2 class="slider__title">Фотопроект <br> «Семья как семья»</h2>
+                            <p class="slider__text">Фотопроект Алексея Горшенина включает в себя восемь историй людей и
+                                семей, где один или оба супруга имеют инвалидность</p>
+                            <button class="button button_color_dark button_place_projects" type="button"><a
+                                    href=#></a>Посмотреть</button>
+                        </div>
+                        <img class='slider__image' src="images/projects.png" alt="Социальное фото">
+                    </div>
+
                 </div>
-            </section>
+                <div class="sliders-control">
+                    <!-- Кнопки для перехода к предыдущему и следующему слайду -->
+                    <button class="sliders-control__prev" data-slide="prev" type="button"> </button>
+                    <button class="sliders-control__next" data-slide="next" type="button"></button>
+                </div>
+            </div>
+        </section>
 
-            <section class="directions"> <!--Блок “Направления работы”-->
-                
-            </section>
+        <section class="stories">
+            <!--Блок “Истории”-->
 
-            <section class="advantages"> <!--Блок “Преимущества”--> <!--JS Аккордион-->
-                
-            </section>
+        </section>
 
-            <section class="numbers"> <!--Блок “Основные цифры”-->
-                
-            </section>
+        <section class="agency">
+            <!--Блок “Агентство”-->
 
-            <section class="projects"> <!--Блок “Спецпроекты”--> <!--JS Слайдер-->
-                
-            </section>
+        </section>
 
-            <section class="stories"> <!--Блок “Истории”-->
-                
-            </section>
+        <section class="news">
+            <!--Блок “Новости”-->
+            <h2 class="news__title">Новости</h2>
+            <button class="button button_color_blue button_place_news" type="button"><a href=#></a>Все новости</button>
+            <div class="news__cards">
 
-            <section class="agency"> <!--Блок “Агентство”-->
-                
-            </section>
+                <div class="card-news card-news_template_card-1" id="card-1">
+                    <p class="card-news__theme">Тема</p>
+                    <img class='card-news__image' src="images/news1.png" alt="Фото партнеров">
+                    <h3 class="card-news__title">Ура! Новое партнерство — с PepsiCo</h3>
+                    <p class="card-news__text">Everland совместно с PepsiCo приняли участие в акции
+                        «Благотворительность
+                        вместо сувениров»
+                    </p>
+                    <time class='card-news__data' datetime='2021-09-21'>20 сентября 2021</time>
+                </div>
 
-            <section class="news"> <!--Блок “Новости”-->
-                
-            </section>
+                <div class="card-news card-news_color_green" id="card-2">
+                    <p class="card-news__theme">Тема</p>
+                    <h3 class="card-news__title">Трехдневный интенсив для КСО-менеджеров «Бизнес и инклюзия: как строить
+                        эффективные программы»</h3>
+                    <p class="card-news__text">Эксперты с инвалидностью, представители бизнеса и некоммерческих
+                        организаций поговорили о том, что такое инклюзия, рассмотрели подходы к трудоустройству людей с
+                        инвалидностью, обсудили проблемы, к которым нужно быть готовым, и поделились успешными кейсами
+                    </p>
+                    <time class='card-news__data' datetime='2021-09-21'>20 сентября 2021</time>
+                </div>
 
-            <section class="support"> <!--Блок “Поддержать”--> <!--Скролл на JS с блока с кнопками пожертвований-->
-                
-            </section> 
+                <div class="card-news card-news_template_card-3" id="card-3">
+                    <p class="card-news__theme">Тема</p>
+                    <h3 class="card-news__title">Тестируем супермаркеты на доступность</h3>
+                    <p class="card-news__text">Everland совместно с торговой сетью «Перекресток» провели аудит
+                        продуктовых магазинов на доступность для людей с разными видами инвалидности
+                    </p>
+                    <img class='card-news__image' src="images/news3.png" alt="Фото супермаркета">
+                    <time class='card-news__data' datetime='2021-09-21'>20 сентября 2021</time>
+                </div>
 
-        </main>
 
-        <footer class="footer"></footer> <!--Футер-->
+            </div>
+        </section>
 
-    </body>
+        <section class="support">
+            <!--Блок “Поддержать”-->
+            <!--Скролл на JS с блока с кнопками пожертвований-->
+
+        </section>
+
+    </main>
+
+    <footer class="footer"></footer>
+    <!--Футер-->
+    <script src="pages/script.js"></script>
+</body>
 
 </html>

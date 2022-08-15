@@ -1,0 +1,60 @@
+.sliders-control__prev {
+    width: 35px;
+    height: 35px;
+    background: #333333;
+    border-radius: 10px;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    background-image: url(../../../../images/arrow_prev.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sliders-control__prev:hover {
+    background: #0C4BA0;
+    background-image: url(../../../../images/arrow_prev.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sliders-control__prev:active {
+    background: #00275C;
+    background-image: url(../../../../images/arrow_prev.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 320px) and (max-width : 767px) {
+    .sliders-control__prev {
+        width: 24px;
+        height: 24px;
+        background-size: 10px;
+        border-radius: 6px;
+    }
+
+    .sliders-control__prev:hover {
+        background-size: 10px;
+    }
+
+    .sliders-control__prev:active {
+        background-size: 10px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width : 1024px) {
+    .sliders-control__prev {
+        width: 30px;
+        height: 30px;
+        background-size: 10px;
+        border-radius: 6px;
+    }
+
+    .sliders-control__prev:hover {
+        background-size: 10px;
+    }
+
+    .sliders-control__prev:active {
+        background-size: 10px;
+    }
+}
