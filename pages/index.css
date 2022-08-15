@@ -45,3 +45,8 @@
 @import url(../blocks/form/__element/form__element.css);
 @import url(../blocks/form/__castom-radio/form__castom-radio.css);
 @import url(../blocks/form/__element-label/form__element-label.css);
+@import url(../blocks/form/__element-label/_grid-position/form__element-label_grid-position_price250.css);
+@import url(../blocks/form/__element-label/_grid-position/form__element-label_grid-position_price500.css);
+@import url(../blocks/form/__element-label/_grid-position/form__element-label_grid-position_price750.css);
+@import url(../blocks/form/__element-label/_grid-position/form__element-label_grid-position_price1000.css);
+@import url(../blocks/form/__element-label/_grid-position/form__element-label_grid-position_price-other.css);
