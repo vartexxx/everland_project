@@ -4,19 +4,20 @@
   grid-template-columns: repeat(4, 159px);
   grid-template-areas:
     "price250 price500 price750 price1000 "
-    "price-other . . .";  
+    "price-other . . .";
   grid-column-gap: 5px;
   grid-row-gap: 12px;
 }
 
-/* @media screen and (max-width: 1439px) {
+@media screen and (max-width: 1439px) {
   .form__fieldset_place_donation-price {
-    grid-template-columns: repeat(4, 100px) 130px;
-    grid-gap: 20px;
+    grid-template-columns: repeat(4, 145px);
+    grid-gap: 16px;
+    padding: 24px 0 19px 0;
   }
 }
 
-@media screen and (max-width: 1023px) {
+/* @media screen and (max-width: 1023px) {
   .form__fieldset_place_donation-price {
     grid-template-columns: repeat(4, 75px) 135px;
     grid-gap: 10px;
@@ -34,5 +35,4 @@
       "price750 price1000"
       "price-other .";
   }
-}
- */
+} */

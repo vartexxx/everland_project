@@ -1,7 +1,17 @@
 .support__info {
+  margin: 0;
   font-size: 18px;
   line-height: 130%;
   font-feature-settings: "pnum" on, "lnum" on;
   color: #333;
-  margin: 16px 0 24px 0;
+  margin-bottom: 24px;
+}
+
+@media screen and (max-width: 1439px) {
+  .support__info {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 120%;
+    margin-bottom: 14px;
+  }
 }

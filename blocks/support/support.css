@@ -3,3 +3,10 @@
   box-sizing: border-box;
   padding: 100px 0;
 }
+
+@media screen and (max-width: 1439px) {
+  .support {
+    text-align: center;
+    padding: 44px 0;
+  }
+}
