@@ -1,0 +1,18 @@
+.form_place_donations {
+  grid-template-columns: repeat(4, 159px) 211px;
+  grid-gap: 40px;
+}
+
+@media screen and (max-width: 1439px) {
+  .form_place_donations {
+    grid-template-columns: repeat(4, 100px) 130px;
+    grid-gap: 20px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .form_place_donations {
+    grid-template-columns: repeat(4, 75px) 135px;
+    grid-gap: 10px;
+  }
+}

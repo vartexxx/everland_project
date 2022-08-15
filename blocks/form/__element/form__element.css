@@ -1,2 +1,7 @@
 .form__element {
+  display: none;
+}
+
+.form__element:checked + .form__castom-radio {
+  border: 1px solid #0c4ba0;
 }

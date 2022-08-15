@@ -1,6 +1,7 @@
 .form__castom-radio {
+  box-sizing: border-box;
   display: flex;
-  width: 159px;
+  width: 100%;
   height: 48px;
   background: #ffffff;
   border-radius: 10px;

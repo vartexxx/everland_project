@@ -3,5 +3,11 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 120%;
-  color: #333;  
+  color: #333;
+}
+
+@media screen and (max-width: 1023px) {
+  .donations__price {
+    font-size: 16px;
+  }
 }

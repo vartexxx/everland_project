@@ -34,11 +34,14 @@
 
 /* Подключение блока donations-link, кнопка Поддержать */
 @import url(../blocks/donations-link/donations-link.css);
+@import url(../blocks/donations-link/_place/donations-link_place_donations.css);
 
 /* Подключение блока donations и его элементов */
 @import url(../blocks/donations/__price/donations__price.css);
 
 /* Подлкючение блока form, секции Поддержать */
 @import url(../blocks/form/form.css);
+@import url(../blocks/form/_place/form_place_donations.css);
 @import url(../blocks/form/__element/form__element.css);
 @import url(../blocks/form/__castom-radio/form__castom-radio.css);
+@import url(../blocks/form/__element-label/form__element-label.css);
