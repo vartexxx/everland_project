@@ -15,7 +15,8 @@
     <body class="body">
 
         <main class="main">
-            <section class="main__container everland"> <!--Блок “Everland - социально-предпринимательский проект”--> <!--JS слайдер-->
+
+            <section class="main__container everland">
                     <h1 class="everland__title"><span class="everland__span">Everland</span>&nbsp;&mdash; социальный предпринимательский проект</h1>
                     <div class="everland__image-container">
                         <img src="./images/everland__image1.jpg" alt="Верхняя картинка" class="everland__image-upper">
@@ -27,13 +28,14 @@
                          устойчиво интегрироваться в&nbsp;открытый рынок труда
                     </p>
                     <div class="everland__slider">
-                        <button class="everland__button everland__button_left"></button>
+                        <button class="everland__button everland__button_left" data-slide="prev" type="button"></button>
                         <p class="everland__slider-number">1/6</p>
-                        <button class="everland__button everland__button_right"></button>
+                        <button class="everland__button everland__button_right" data-slide="next" type="button"></button>
                     </div>
             </section>
+            
         </main>
-     
+    <script src="./src/everland.js"></script>
     </body>
 
 </html>
