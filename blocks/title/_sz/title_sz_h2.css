@@ -1,23 +1,11 @@
 .title_sz_h2 {
   font-size: 64px;
-  letter-spacing: -1%;
-}
-
-.title_sz_h2.small-screen {
-  display: none;
+  letter-spacing: -0.01em;
 }
 
 @media screen and (max-width: 1023px) {
   .title_sz_h2 {
     font-size: 36px;
-  }
-
-  .title_sz_h2.small-screen {
-    display: block;
-  }
-
-  .title_sz_h2.large-screen {
-    display: none;
   }
 }
 
