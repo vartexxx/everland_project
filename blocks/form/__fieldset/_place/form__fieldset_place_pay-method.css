@@ -1,8 +1,16 @@
 .form__fieldset_place_pay-method {
-  margin-left: auto;
+  margin-left: 0;
   padding: 16px 0 41px 0;
   display: grid;
   grid-template-columns: repeat(3, 186px) 20px;
   grid-gap: 18px;
   align-items: center;
+}
+
+@media screen and (max-width: 1439px) {
+  .form__fieldset_place_pay-method {
+    padding: 24px 0 52px 0;
+    grid-template-columns: repeat(3, 190px) 20px;
+    grid-gap: 16px;
+  }
 }
