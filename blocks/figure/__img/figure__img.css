@@ -1,5 +1,6 @@
 .figure__img {
   width: 440px;
+  display: block;
 }
 
 @media screen and (max-width: 1023px) {
