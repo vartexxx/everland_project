@@ -18,3 +18,9 @@
   font-feature-settings: "pnum" on, "lnum" on;
   color: #dadada;
 }
+
+@media screen and (max-width: 1439px) {
+  .popup__input::placeholder {
+    font-size: 14px;
+  }
+}

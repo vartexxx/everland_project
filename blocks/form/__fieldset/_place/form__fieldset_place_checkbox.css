@@ -3,3 +3,10 @@
   grid-gap: 18px;
   padding-bottom: 23px;
 }
+
+@media screen and (max-width: 1439px) {
+  .form__fieldset_place_checkbox {
+    grid-gap: 13px;
+    padding-bottom: 24px;
+  }
+}

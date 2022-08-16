@@ -6,3 +6,12 @@
   grid-template-rows: repeat(2, 48px);
   grid-gap: 21px;
 }
+
+@media screen and (max-width: 1439px) {
+  .form__fieldset_place_pay-date {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    grid-template-rows: repeat(2, 44px);
+    grid-gap: 16px;
+  }
+}

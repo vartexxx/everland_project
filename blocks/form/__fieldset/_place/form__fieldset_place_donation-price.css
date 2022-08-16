@@ -10,10 +10,10 @@
 }
 
 @media screen and (max-width: 1439px) {
-  .form__fieldset_place_donation-price {
+  .form__fieldset_place_donation-price {    
     grid-template-columns: repeat(4, 145px);
     grid-gap: 16px;
-    padding: 24px 0 19px 0;
+    padding: 24px 5px 19px 5px;
   }
 }
 
