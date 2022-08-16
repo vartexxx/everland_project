@@ -32,16 +32,18 @@
     font-size: 16px;
     line-height: 1.2;
     height: 44px;
-    width: 147.7px;
-    background-size: 12px 12px;
+    width: 139px;
+    background-size: 13.33px 13.33px;
   }
 }
 
 @media screen and (max-width: 479px) {
   .card__link {
     font-size: 14px;
-    width: 128px;
+    width: 120px;
     padding: 10px;
     height: 37px;
+    background-size: 12px 12px;
+    background-position: center right 10px;
   }
 }

@@ -13,6 +13,7 @@
   .card {
     width: 334px;
     min-height: 291px;
+    border-radius: 20px;
   }
 }
 
