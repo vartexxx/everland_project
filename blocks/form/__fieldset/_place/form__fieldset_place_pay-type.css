@@ -7,7 +7,7 @@
 
 @media screen and (max-width: 1439px) {
   .form__fieldset_place_pay-type {
-    grid-template-columns: repeat(2, 308px);
+    grid-template-columns: 316px 296px;
     grid-gap: 16px;
     margin-bottom: 32px;
   }
