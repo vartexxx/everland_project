@@ -1,0 +1,17 @@
+.footer__presentation {
+  max-width: 600px;
+  width: 100%;
+}
+
+@media (max-width: 1439px) {
+  .footer__presentation {
+    min-width: 353px;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer__presentation {
+    min-width: auto;
+    width: 100%;
+  }
+}

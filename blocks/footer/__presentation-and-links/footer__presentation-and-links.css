@@ -1,0 +1,9 @@
+.footer__presentation-and-links {
+  display: flex;
+}
+
+@media (max-width: 767px) {
+  .footer__presentation-and-links {
+    flex-direction: column;
+  }
+}

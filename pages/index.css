@@ -1,5 +1,4 @@
 @import url(../vendor/normalize.css);
-
 @import url(../blocks/body/body.css);
 
 @import url(../blocks/main/__title/main__title.css);
@@ -17,3 +16,33 @@
 @import url(../blocks/whom/__button/_green/whom__button_green.css);
 @import url(../blocks/whom/__button/_orange/whom__button_orange.css);
 @import url(../blocks/whom/__text-container/whom__text-container.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__presentation-and-links/footer__presentation-and-links.css);
+@import url(../blocks/footer/__presentation/footer__presentation.css);
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/logo/_position/logo_position_footer.css);
+@import url(../blocks/footer/__descriptions/footer__descriptions.css);
+@import url(../blocks/footer/__description/footer__description.css);
+@import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__links-column/footer__links-column.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__support-and-subscription/footer__support-and-subscription.css);
+@import url(../blocks/footer/__support/footer__support.css);
+@import url(../blocks/footer/__title/footer__title.css);
+@import url(../blocks/footer/___link-icons/footer___link-icons.css);
+@import url(../blocks/footer/__link-icon-beeline/footer__link-icon-beeline.css);
+@import url(../blocks/footer/__link-icon-fpg/footer__link-icon-fpg.css);
+@import url(../blocks/footer/__contacts/footer__contacts.css);
+@import url(../blocks/footer/__telefons/footer__telefons.css);
+@import url(../blocks/footer/__telefon/footer__telefon.css);
+@import url(../blocks/footer/__adress/footer__adress.css);
+@import url(../blocks/footer/__subscription/footer__subscription.css);
+@import url(../blocks/footer/__title/_mobile-support/footer__title_mobile-support.css);
+@import url(../blocks/footer/__social-icons/footer__social-icons.css);
+@import url(../blocks/footer/__link-icon-telegramm/footer__link-icon-telegramm.css);
+@import url(../blocks/footer/__link-icon-vk/footer__link-icon-vk.css);
+@import url(../blocks/footer/__copyring/footer__copyring.css);
+@import url(../blocks/footer/_practiсum/footer__practiсum.css);
+@import url(../blocks/footer/__image-practicum/footer__image-practicum.css);
+@import url(../blocks/footer/__annotation/footer__annotation.css);

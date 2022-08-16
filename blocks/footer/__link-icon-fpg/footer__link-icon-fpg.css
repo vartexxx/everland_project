@@ -1,0 +1,22 @@
+.footer__link-icon-fpg {
+  background-image: url(../../../images/fpg.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 48px;
+}
+
+@media (max-width: 1439px) {
+  .footer__link-icon-fpg {
+    width: 88px;
+    height: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer__link-icon-fpg {
+    width: 73px;
+    height: 25px;
+  }
+}

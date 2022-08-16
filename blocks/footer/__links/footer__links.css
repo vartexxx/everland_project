@@ -1,0 +1,18 @@
+.footer__links {
+  display: flex;
+  width: 100%;
+}
+
+@media (max-width: 1439px) {
+  .footer__links {
+    padding-top: 8px;
+    gap: 53px;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer__links {
+    padding-top: 40px;
+    gap: 16px;
+  }
+}

@@ -1,0 +1,16 @@
+.footer__link-icon-vk {
+  background-image: url(../../../images/vk.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 64px;
+  height: 64px;
+}
+
+@media (max-width: 1439px) {
+  .footer__link-icon-vk {
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+  }
+}
