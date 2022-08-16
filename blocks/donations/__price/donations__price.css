@@ -6,8 +6,20 @@
   color: #333;
 }
 
+@media screen and (max-width: 1439px) {
+  .donations__price {
+    font-size: 18px;
+  }
+}
+
 @media screen and (max-width: 1023px) {
   .donations__price {
     font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .donations__price {
+    font-size: 14px;
   }
 }
