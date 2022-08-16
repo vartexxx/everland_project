@@ -6,3 +6,10 @@
     font-size: 20px;
     line-height: 130%;
 }
+
+@media screen and (max-width: 1439px) {
+    .two-cards__subtitle {
+        font-size: 16px;
+        line-height: 120%;
+    }
+}
