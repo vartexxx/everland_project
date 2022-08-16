@@ -15,3 +15,10 @@
     grid-gap: 16px;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .form__fieldset_place_pay-date {
+    grid-template-columns: 260px;
+    grid-template-rows: 44px 48px;
+  }
+}

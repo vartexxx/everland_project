@@ -15,3 +15,11 @@
     padding: 30px 25px;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .form_place_support {
+    width: 300px;
+    padding: 32px 20px;
+    border-radius: 20px;
+  }
+}

@@ -25,3 +25,11 @@
     height: 44px;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .form__button_type_submit {
+    margin-left: 0;
+    width: 260px;
+    height: 44px;
+  }
+}

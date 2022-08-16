@@ -13,3 +13,10 @@
     margin-bottom: 32px;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .form__fieldset_place_pay-type {
+    padding: 0;
+    grid-template-columns: repeat(2, 122px);
+  }
+}
