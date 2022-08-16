@@ -10,3 +10,11 @@
         column-gap: 16px;
     }
 }
+
+@media screen and (max-width: 767px) {
+    .stories__card {
+        grid-template-rows: repeat(3, auto);
+        grid-template-columns: auto;
+        gap: 0;
+    }
+}

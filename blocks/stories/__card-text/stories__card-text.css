@@ -5,3 +5,18 @@
     grid-template: repeat(3, auto) / auto;
     row-gap: 20px;
 }
+
+@media screen and (max-width: 1439px) {
+    .stories__card-text {
+        margin-top: 25px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .stories__card-text {
+        grid-row: 3;
+        grid-column: 1;
+        margin-top: 13.5px;
+        row-gap: 16px;
+    }
+}

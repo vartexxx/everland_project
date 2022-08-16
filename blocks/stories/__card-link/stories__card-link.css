@@ -23,3 +23,13 @@
         height: 44px;
     }
 }
+
+@media screen and (max-width: 767px) {
+    .stories__card-link {
+        font-size: 14px;
+        width: 173px;
+        height: 44px;
+        padding: 13.5px 10px;
+        background-size: 13px 13px;
+    }
+}

@@ -10,3 +10,9 @@
         justify-content: space-between;
     }
 }
+
+@media screen and (max-width: 767px) {
+    .two-cards__paragraph {
+        justify-content: space-around;
+    }
+}

@@ -14,3 +14,10 @@
         line-height: 120%;
     }
 }
+
+@media screen and (max-width: 767px) {
+    .two-cards__link {
+        font-size: 12px;
+        line-height: 120%;
+    }
+}

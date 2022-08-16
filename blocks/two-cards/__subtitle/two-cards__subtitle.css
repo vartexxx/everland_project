@@ -13,3 +13,9 @@
         line-height: 120%;
     }
 }
+
+@media screen and (max-width: 767px) {
+    .two-cards__subtitle {
+        font-size: 14px;
+    }
+}

@@ -10,3 +10,10 @@
         height: 28px;
     }
 }
+
+@media screen and (max-width: 767px) {
+    .two-cards__icon-play {
+        width: 24px;
+        height: 24px;
+    }
+}
