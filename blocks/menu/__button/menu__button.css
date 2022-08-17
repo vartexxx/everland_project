@@ -31,10 +31,6 @@
   background-color: #fff;
 }
 
-/* button:not([disabled]):hover {
-  color: red;
-} */
-
 .menu__button:not([disabled]):active {
   background-color: #00275C;
   color: #fff;
