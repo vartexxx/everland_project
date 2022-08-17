@@ -4,4 +4,9 @@
   display: flex;
   align-items: center;
   gap: 12px;
+  transition: opacity 0.3s;
+}
+
+.menu__open-icon:hover {
+  opacity: 0.7;
 }
