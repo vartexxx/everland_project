@@ -4,6 +4,7 @@
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
     color: #333333;
     font-family: 'Raleway', 'Arial', sans-serif;
 }
