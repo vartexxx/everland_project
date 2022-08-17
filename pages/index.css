@@ -18,6 +18,6 @@
 @import url(../blocks/everland/__slider/everland__slider.css);
 @import url(../blocks/everland/__image-upper/everland__image-upper.css);
 @import url(../blocks/everland/__image-down/everland__image-down.css);
-
 @import url(../blocks/slide/slide.css);
 @import url(../blocks/slide/_active/slide_active.css);
+@import url(../blocks/fade/fade.css);
