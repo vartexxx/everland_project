@@ -5,6 +5,11 @@
   font-weight: 400;
   color: #333;
   max-width: 227px;
+  transition: opacity 0.3s;
+}
+
+.footer__link:hover {
+opacity: 0.6;
 }
 
 @media (max-width: 1439px) {
