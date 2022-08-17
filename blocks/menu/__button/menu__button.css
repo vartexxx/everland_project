@@ -1,0 +1,63 @@
+.menu__button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  box-sizing: border-box;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  width: 180px;
+  height: 48px;
+  border: 1px solid #0C4BA0;
+  border-radius: 10px;
+  color: #0C4BA0;
+  transition: border-color 0.2s, background-color 0.2s, color 0.2s ease;
+}
+
+@media (max-width: 1023px) {
+  .menu__button {
+    width: 134px;
+    height: 44px;
+    font-size: 16px;
+  }
+}
+
+.menu__button:not([disabled]):hover {
+  color: #00275C;
+  border-color: #00275C;
+  background-color: #fff;
+}
+
+.menu__button:not([disabled]):active {
+  background-color: #00275C;
+  color: #fff;
+  border-color: #00275C;
+}
+
+.menu__button:disabled {
+  background-color: #F5F5F5;
+  color: rgba(38, 38, 38, 0.5);
+  border: 2px solid #C4C4C4;
+}
+
+.menu__button_active {
+  color: #fff;
+  background-color: #0C4BA0;
+  border-color: #0C4BA0;
+}
+
+.menu__button_active:not([disabled]):hover {
+  background-color: #4183DC;
+  color: #fff;
+  border-color: #4183DC;
+}
+
+.menu__button_active:not([disabled]):active {
+  background-color: #00275C;
+  color: #fff;
+  border-color: #00275C;
+}
+
