@@ -1,22 +1,13 @@
 .everland {
     display: grid;
-    grid-template: 258px 1fr / fit-content(826px) 1fr 1fr;
-    grid-template-areas:
-    'title image'
-    'subtitle image' 
-    'slider image';
-    gap: 20px 16px;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(2, auto);
     padding: 62px 0px 90px 0px;
 }
 
 @media screen and (max-width: 1439px) {
     .everland {
-        grid-template:  138px 57px / 424px 1fr 1fr;
-        grid-template-areas:
-        'title image'
-        'subtitle image' 
-        'slider image';
-        gap: 20px 20px;
+        grid-template-rows: auto;
         max-width: calc(768px - 80px);
         padding: 56px 0px 50px 0px;
     }
@@ -24,13 +15,8 @@
 
 @media screen and (max-width: 767px) {
     .everland {
-        grid-template: 1fr / 1fr 1fr 1fr 1fr;
-        grid-template-areas:
-        'title'
-        'subtitle'
-        'image'
-        'slider';
-        grid-row-gap: 16px;
+        grid-template-columns: auto;
+        grid-template-rows: repeat(2, auto);
         max-width: 304px;
         padding: 50px 0px 40px 0px;
     }

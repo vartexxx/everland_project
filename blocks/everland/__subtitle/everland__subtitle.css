@@ -1,19 +1,19 @@
 .everland__subtitle {
+    grid-row: 1;
+    grid-column: 1;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 130%;
-    margin: 0;
+    margin: 278px 290px 0px 0px;
     padding: 0;
-    grid-area: subtitle;
-    margin-right: 290px;
 }
 
 @media screen and (max-width: 1439px) {
     .everland__subtitle {
+        margin: 160px calc(43px - 20px) 0px 0px;
         font-size: 16px;
         line-height: 19.2px;
-        margin-right: calc(43px - 20px);
     }
 }
 
@@ -21,6 +21,6 @@
     .everland__subtitle {
         font-size: 14px;
         line-height: 120%;
-        margin-right: 10px;
+        margin: 150px 10px 0px 0px;
     }
 }

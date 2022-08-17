@@ -1,4 +1,6 @@
 .everland__title {
+    grid-row: 1;
+    grid-column: 1;
     font-weight: 700;
     font-size: 72px;
     font-style: normal;
@@ -6,7 +8,6 @@
     letter-spacing: -0.02em;
     margin: 0;
     padding: 0;
-    grid-area: title;
 }
 
 @media screen and (max-width: 1439px) {

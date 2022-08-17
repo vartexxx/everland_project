@@ -2,18 +2,24 @@
     display: flex;
     align-items: center;
     justify-content: start;
-    grid-area: slider;
-    margin: 153px 0px 0px 0px;
+    margin: 170px 0px 0px 0px;
 }
 
 @media screen and (max-width: 1439px) {
     .everland__slider {
         margin: 0;
+        position: absolute;
+        top: 320px;
     }
 }
 
 @media screen and (max-width: 767px) {
     .everland__slider {
+        position: relative;
+        top: 0;
+        margin: 0;
+        grid-row: 3;
+        grid-template-columns: 1;
         justify-content: center;
     }
 }
