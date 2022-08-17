@@ -1,0 +1,12 @@
+@media (max-width: 1023px) {
+  .menu__white-space {
+    display: flex;
+    height: 80px;
+  }
+}
+
+@media (max-width: 768px) {
+  .menu__white-space {
+    height: 54px;
+  }
+}
