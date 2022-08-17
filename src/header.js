@@ -49,6 +49,8 @@ buttonMenuUslugi.addEventListener('click', () => {
 //---------------------
 // Скролл по ссылкам на нужные блоки
 //---------------------
+const everlandBlock = document.querySelector('.everland');
+const supportBlock = document.querySelector('.support');
 const whomBlock = document.querySelector('.whom');
 const directionsBlock = document.querySelector('.directions');
 const advantagesBlock = document.querySelector('.advantages');
@@ -58,62 +60,71 @@ const storiesBlock = document.querySelector('.stories');
 const agencyBlock = document.querySelector('.agency');
 const newsBlock = document.querySelector('.news');
 
-const whomLinkList = document.querySelectorAll('.menu__link_pointer_whom');
-const directionsLinkList = document.querySelectorAll('.menu__link_pointer_directions');
-const advantagesLinkList = document.querySelectorAll('.menu__link_pointer_advantages');
-const numbersLinkList = document.querySelectorAll('.menu__link_pointer_numbers');
-const projectsLinkList = document.querySelectorAll('.menu__link_pointer_projects');
-const storiesLinkList = document.querySelectorAll('.menu__link_pointer_stories');
-const agencyLinkList = document.querySelectorAll('.menu__link_pointer_agency');
-const newsLinkList = document.querySelectorAll('.menu__link_pointer_news');
+const platformButton = document.querySelector('.menu__button_pointer_platform');
+const supportButton = document.querySelector('.menu__button_pointer_support');
+const whomLink = document.querySelector('.menu__link_pointer_whom');
+const directionsLink = document.querySelector('.menu__link_pointer_directions');
+const advantagesLink = document.querySelector('.menu__link_pointer_advantages');
+const numbersLink = document.querySelector('.menu__link_pointer_numbers');
+const projectsLink = document.querySelector('.menu__link_pointer_projects');
+const storiesLink = document.querySelector('.menu__link_pointer_stories');
+const agencyLink = document.querySelector('.menu__link_pointer_agency');
+const newsLink = document.querySelector('.menu__link_pointer_news');
 
-
-whomLinkList.forEach((el) => {
-  el.addEventListener('click', () => {
-    whomBlock.scrollIntoView({block: "center", inline: "center", behavior: "smooth"});
-  });
+if (supportButton.hasAttribute('disabled')) {
+  platformButton.classList.add('menu__button_active');
+}
+platformButton.addEventListener('click', () => {
+  if (platformButton.classList.contains('menu__button_active')) {
+    supportButton.classList.remove('menu__button_active');
+  } else {
+    platformButton.classList.add('menu__button_active')
+    supportButton.classList.remove('menu__button_active');
+  }
+  everlandBlock.scrollIntoView({behavior: "smooth"});
 });
 
-directionsLinkList.forEach((el) => {
-  el.addEventListener('click', () => {
-    directionsBlock.scrollIntoView({block: "center", inline: "center", behavior: "smooth"});
-  });
+supportButton.addEventListener('click', () => {
+  if (supportButton.classList.contains('menu__button_active')) {
+    platformButton.classList.remove('menu__button_active');
+  } else {
+    supportButton.classList.add('menu__button_active')
+    platformButton.classList.remove('menu__button_active');
+  }
+  supportBlock.scrollIntoView({ block: "center", inline: "center", behavior: "smooth" })
 });
 
-advantagesLinkList.forEach((el) => {
-  el.addEventListener('click', () => {
-    advantagesBlock.scrollIntoView({block: "center", inline: "center", behavior: "smooth"});
-  });
+whomLink.addEventListener('click', () => {
+  whomBlock.scrollIntoView({ block: "center", inline: "center", behavior: "smooth" });
 });
 
-numbersLinkList.forEach((el) => {
-  el.addEventListener('click', () => {
-    numbersBlock.scrollIntoView({block: "center", inline: "center", behavior: "smooth"});
-  });
+directionsLink.addEventListener('click', () => {
+  directionsBlock.scrollIntoView({ block: "center", inline: "center", behavior: "smooth" });
 });
 
-projectsLinkList.forEach((el) => {
-  el.addEventListener('click', () => {
-    projectsBlock.scrollIntoView({block: "center", inline: "center", behavior: "smooth"});
-  });
+advantagesLink.addEventListener('click', () => {
+  advantagesBlock.scrollIntoView({ block: "center", inline: "center", behavior: "smooth" });
 });
 
-storiesLinkList.forEach((el) => {
-  el.addEventListener('click', () => {
-    storiesBlock.scrollIntoView({block: "center", inline: "center", behavior: "smooth"});
-  });
+numbersLink.addEventListener('click', () => {
+  numbersBlock.scrollIntoView({ block: "center", inline: "center", behavior: "smooth" });
 });
 
-agencyLinkList.forEach((el) => {
-  el.addEventListener('click', () => {
-    agencyBlock.scrollIntoView({block: "center", inline: "center", behavior: "smooth"});
-  });
+projectsLink.addEventListener('click', () => {
+  projectsBlock.scrollIntoView({ block: "center", inline: "center", behavior: "smooth" });
 });
 
-newsLinkList.forEach((el) => {
-  el.addEventListener('click', () => {
-    newsBlock.scrollIntoView({block: "center", inline: "center", behavior: "smooth"});
-  });
+
+storiesLink.addEventListener('click', () => {
+  storiesBlock.scrollIntoView({ block: "center", inline: "center", behavior: "smooth" });
+});
+
+agencyLink.addEventListener('click', () => {
+  agencyBlock.scrollIntoView({ block: "center", inline: "center", behavior: "smooth" });
+});
+
+newsLink.addEventListener('click', () => {
+  newsBlock.scrollIntoView({ block: "center", inline: "center", behavior: "smooth" });
 });
 
 
