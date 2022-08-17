@@ -1,0 +1,16 @@
+.menu__image {
+  width: 25px;
+  height: 23px;
+  background-image: url(../../../images/Menu.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 767px) {
+  .menu__image {
+    width: 24px;
+    height: 20px;
+    background-size: contain;
+  }
+}
