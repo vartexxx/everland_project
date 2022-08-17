@@ -19,5 +19,6 @@
   .footer__copyring {
     padding-top: 32px;
     font-size: 12px;
+    max-width: 300px;
   }
 }
