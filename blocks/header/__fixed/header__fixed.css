@@ -11,6 +11,7 @@
   box-sizing: border-box;
   background-color: #fff;
   gap: 24px;
+  z-index: 100;
 }
 
 @media (max-width: 1023px) {

@@ -5,8 +5,9 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .menu__white-space {
     height: 54px;
   }
 }
+
