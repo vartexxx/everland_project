@@ -1,0 +1,21 @@
+.logo_position_header {
+  width: 171px;
+  height: 30px;
+  margin-right: 100px;
+}
+
+@media (max-width: 1023px) {
+  .logo_position_header {
+    width: 135px;
+    height: 24px;
+    margin-right: 0;
+    width: 100%;
+    background-position: left;
+  }
+}
+
+@media (max-width: 767px) {
+  .logo_position_header {
+    width: 137px;
+  }
+}
