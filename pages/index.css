@@ -71,7 +71,13 @@
 /* Подключение секции support */
 @import url(../blocks/support/support.css);
 @import url(../blocks/support/__title/support__title.css);
-@import url(../blocks/support/__list/support__list.css);
-@import url(../blocks/support/__list-img/support__list-img.css);
+@import url(../blocks/support/__donation-list/support__donation-list.css);
 @import url(../blocks/support/__info/support__info.css);
+@import url(../blocks/support/__lists/support__lists.css);
+@import url(../blocks/support/__lists-item/support__lists-item.css);
+@import url(../blocks/support/__line/support__line.css);
 @import url(../blocks/support/__text/support__text.css);
+@import url(../blocks/support/__text/_grid-position/support__text_grid-position_line.css);
+@import url(../blocks/support/__text/_grid-position/support__text_grid-position_name.css);
+@import url(../blocks/support/__text/_grid-position/support__text_grid-position_price.css);
+@import url(../blocks/support/__text/_grid-position/support__text_grid-position_time.css);

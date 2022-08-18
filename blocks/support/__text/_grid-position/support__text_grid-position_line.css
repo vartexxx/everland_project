@@ -1,0 +1,5 @@
+.support__text_grid-position_line {
+  grid-area: line;
+  width: 100%;  
+  border-bottom: 1px dotted #333;
+}

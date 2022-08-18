@@ -1,0 +1,28 @@
+.support__lists-item {
+  max-width: 396px;
+  display: grid;
+  grid-template-columns: 75px 152px 149px;
+  grid-template-rows: repeat(2, 26px);
+  grid-template-areas:
+    "name line price"
+    ". . time";
+  grid-column-gap: 10px;
+  grid-row-gap: 5px;
+  justify-items: start;
+  align-items: end;
+}
+
+@media screen and (max-width: 1023px) {
+  .support__lists-item {
+    max-width: 349px;
+    grid-template-columns: 60px 164px 105px;
+    grid-row-gap: 1px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .support__lists-item {
+    max-width: 300px;
+    grid-template-columns: 53px 135px 90px;
+  }
+}

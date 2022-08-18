@@ -1,0 +1,12 @@
+.support__lists {
+  margin-top: 74px;
+  display: grid;
+  grid-gap: 29px;
+}
+
+@media screen and (max-width: 1439px) {
+  .support__lists {
+    margin-top: 25px;
+    grid-gap: 17px;
+  }
+}
