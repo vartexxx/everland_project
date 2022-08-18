@@ -6,7 +6,7 @@
   height: 25px;
   background: #dadada;
   border-radius: 10px;
-  vertical-align: text-bottom;
+  vertical-align: middle;
 }
 
 .form__castom-checkbox::before {
@@ -26,10 +26,4 @@
 
 .form__element:checked + .form__castom-checkbox::before {
   display: block;
-}
-
-@media screen and (max-width: 1439px) {
-  .form__castom-checkbox {
-    vertical-align: middle;
-  }
 }
