@@ -1,0 +1,31 @@
+.title {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 64px;
+    line-height: 120%;
+    color: var(--black);
+    margin: 150px 0 50px 40px;
+    padding: 0;
+}
+
+
+@media screen and (max-width: 768px) {
+    .title {
+        font-size: 36px;
+        margin: 100px 0 32px 40px;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .title {
+        font-size: 30px;
+        margin: 100px 40px 32px 40px;
+    }
+  }
+
+  @media screen and (max-width: 375px) {
+    .title {
+        margin: 64px 0 24px 10px;
+        font-size: 26px;
+    }
+  }

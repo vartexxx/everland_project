@@ -1,0 +1,15 @@
+.advantages__accordeon{
+  border-radius: 30px;
+  border: 2px solid var(--grey);
+}
+
+@media screen and (max-width: 768px) {
+  .advantages__accordeon {
+      border-radius: 20px;
+  }
+} 
+@media screen and (max-width: 375px) {
+  .advantages__accordeon {
+      border-radius: 15px;
+  }
+} 
