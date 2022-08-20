@@ -10,7 +10,7 @@
 @import url(../blocks/title/_sz/title_sz_h2.css);
 @import url(../blocks/title/_sz/title_sz_h3.css);
 @import url(../blocks/title/_sz/title_sz_h4.css);
-@import url(../blocks/btn/btn.css);
+@import url(../blocks/button/button.css);
 
 /* destinations */
 @import url(../blocks/destinations/destinations.css);
@@ -222,4 +222,4 @@
 @import url(../blocks/figure/__img/figure__img.css);
 @import url(../blocks/figure/__caption/figure__caption.css);
 @import url(../blocks/figure/__link/figure__link.css);
-@import url(../blocks/btn/_place/btn_place_agency.css);
+@import url(../blocks/button/_place/button_place_agency.css);
