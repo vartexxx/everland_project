@@ -1,0 +1,17 @@
+.destinations {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+@media screen and (max-width: 1023px) {
+  .destinations {
+    gap: 32px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .destinations {
+    gap: 24px;
+  }
+}

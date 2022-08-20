@@ -1,0 +1,4 @@
+.everland__button_left {
+    transform: rotate(180deg);
+    margin-right: 10px;
+}
