@@ -1,4 +1,4 @@
-.btn {
+.button {
   border-radius: 10px;
   border: 1px solid #0C4BA0;
   color: #0C4BA0;
@@ -16,18 +16,18 @@
   transition: border-color .2s linear, color .2s linear;
 }
 
-.btn:hover {
+.button:hover {
   border-color: #00275C;
   color: #00275C;
 }
 
-.btn:active {
+.button:active {
   background-color: #00275C;
   color: #fff;
 }
 
 @media screen and (max-width: 1023px) {
-  .btn {
+  .button {
     height: 44px;
     font-size: 16px;
     padding: 12.5px 37.5px;
@@ -35,7 +35,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .btn {
+  .button {
     text-align: center;
     width: 100%;
     font-size: 14px;
