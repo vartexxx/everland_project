@@ -16,7 +16,6 @@ donation250.addEventListener("click", checkStatus);
 
 function checkStatus(evt) {
   if ((evt.target.checked = true)) {
-    console.log(evt.target);
     support250.setAttribute("checked", true);
   }
 }
