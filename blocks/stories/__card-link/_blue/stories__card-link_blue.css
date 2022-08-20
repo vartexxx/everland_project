@@ -1,0 +1,16 @@
+.stories__card-link_blue {
+    color: #0C4BA0;
+    background-color: #E7F0FF;
+    background-image: url(../../../../images/arrow__blue.svg);
+}
+
+.stories__card-link_blue:hover {
+    color: white;
+    background-color: #0C4BA0;
+    background-image: url(../../../../images/arrow__white.svg);
+}
+
+.stories__card-link_blue:active {
+    background-color: #00275C;
+    background-image: url(../../../../images/arrow__white.svg);
+}

@@ -1,0 +1,17 @@
+.whom {
+    background-color: #F5F5F5;
+    background-size: 100%;
+    padding: 100px 0px 100px 0px;
+}
+
+@media screen and (max-width: 1439px) {
+    .whom {
+        padding: 50px 0px 50px 0px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .whom {
+        padding: 32px 0px 32px 0px;
+    }
+}

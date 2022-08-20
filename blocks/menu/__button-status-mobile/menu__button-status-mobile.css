@@ -1,0 +1,15 @@
+.menu__button-status-mobile {
+  display: none;
+  width: 24px;
+  height: 24px;
+  background-image: url(../../../images/Icon_shevron.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 767px) {
+  .menu__button-status-mobile {
+    display: block;
+  }
+}
