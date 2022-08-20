@@ -161,3 +161,19 @@
 @import url(../blocks/numbers/__header/_colour/numbers__header_colour_blue.css);
 @import url(../blocks/numbers/__text/numbers__text.css);
 @import url(../blocks/forthcoming/forthcoming.css);
+
+/*Подключенеи секции whom*/
+@import url(../blocks/whom/whom.css);
+@import url(../blocks/whom/__container/whom__container.css);
+@import url(../blocks/whom/__element/whom__element.css);
+@import url(../blocks/whom/__elements/whom__elements.css);
+@import url(../blocks/whom/__title/whom__title.css);
+@import url(../blocks/whom/__icon/whom__icon.css);
+@import url(../blocks/link/link.css);
+@import url(../blocks/link/_blue/link_blue.css);
+@import url(../blocks/link/_green/link_green.css);
+@import url(../blocks/link/_orange/link_orange.css);
+@import url(../blocks/link/_disable/link_disable.css);
+@import url(../blocks/whom/__title/whom__title.css);
+@import url(../blocks/whom/__subtitle/whom__subtitle.css);
+@import url(../blocks/main/__whom/main__whom.css);
