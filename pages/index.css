@@ -1,6 +1,22 @@
 @import url(../vendor/normalize.css);
 
 @import url(../blocks/body/body.css);
+@import url(../blocks/container/container.css);
+@import url(../blocks/container/_place/container_place_destinations.css);
+@import url(../blocks/container/_place/container_place_donations.css);
+@import url(../blocks/container/_place/container_place_support.css);
+@import url(../blocks/title/title.css);
+@import url(../blocks/title/_sz/title_sz_h2.css);
+@import url(../blocks/title/_sz/title_sz_h3.css);
+@import url(../blocks/title/_sz/title_sz_h4.css);
+
+@import url(../blocks/destinations/destinations.css);
+@import url(../blocks/card/card.css);
+@import url(../blocks/card/_color/card_color_light-orange.css);
+@import url(../blocks/card/_color/card_color_light-blue.css);
+@import url(../blocks/card/_color/card_color_light-green.css);
+@import url(../blocks/card/__text/card__text.css);
+@import url(../blocks/card/__link/card__link.css);
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__container/header__container.css);
@@ -72,3 +88,52 @@
 @import url(../blocks/slide/slide.css);
 @import url(../blocks/slide/_active/slide_active.css);
 @import url(../blocks/fade/fade.css);
+
+
+/* Подключение блока donations-link, кнопка Поддержать */
+@import url(../blocks/donations-link/donations-link.css);
+@import url(../blocks/donations-link/_place/donations-link_place_donations.css);
+
+/* Подключение блока donations и его элементов */
+@import url(../blocks/donations/__price/donations__price.css);
+
+/* Подлкючение блока form, секции Поддержать */
+@import url(../blocks/form/_place/form_place_donations.css);
+@import url(../blocks/form/_place/form_place_support.css);
+@import url(../blocks/form/__fieldset/form__fieldset.css);
+@import url(../blocks/form/__fieldset/_place/form__fieldset_place_pay-type.css);
+@import url(../blocks/form/__fieldset/_place/form__fieldset_place_donation-price.css);
+@import url(../blocks/form/__fieldset/_place/form__fieldset_place_pay-method.css);
+@import url(../blocks/form/__fieldset/_place/form__fieldset_place_pay-date.css);
+@import url(../blocks/form/__fieldset/_place/form__fieldset_place_checkbox.css);
+@import url(../blocks/form/__element/form__element.css);
+@import url(../blocks/form/__input/form__input.css);
+@import url(../blocks/form/__button/form__button.css);
+@import url(../blocks/form/__button/_type/form__button_type_arrow.css);
+@import url(../blocks/form/__button/_type/form__button_type_submit.css);
+@import url(../blocks/form/__title/form__title.css);
+@import url(../blocks/form/__line/form__line.css);
+@import url(../blocks/form/__castom-radio/form__castom-radio.css);
+@import url(../blocks/form/__castom-checkbox/form__castom-checkbox.css);
+@import url(../blocks/form/__link/form__link.css);
+@import url(../blocks/form/__checkbox-info/form__checkbox-info.css);
+@import url(../blocks/form/__element-label/form__element-label.css);
+@import url(../blocks/form/__element-label/_grid-position/form__element-label_grid-position_price250.css);
+@import url(../blocks/form/__element-label/_grid-position/form__element-label_grid-position_price500.css);
+@import url(../blocks/form/__element-label/_grid-position/form__element-label_grid-position_price750.css);
+@import url(../blocks/form/__element-label/_grid-position/form__element-label_grid-position_price1000.css);
+@import url(../blocks/form/__element-label/_grid-position/form__element-label_grid-position_price-other.css);
+
+/* Подключение секции support */
+@import url(../blocks/support/support.css);
+@import url(../blocks/support/__title/support__title.css);
+@import url(../blocks/support/__donation-list/support__donation-list.css);
+@import url(../blocks/support/__info/support__info.css);
+@import url(../blocks/support/__lists/support__lists.css);
+@import url(../blocks/support/__lists-item/support__lists-item.css);
+@import url(../blocks/support/__line/support__line.css);
+@import url(../blocks/support/__text/support__text.css);
+@import url(../blocks/support/__text/_grid-position/support__text_grid-position_line.css);
+@import url(../blocks/support/__text/_grid-position/support__text_grid-position_name.css);
+@import url(../blocks/support/__text/_grid-position/support__text_grid-position_price.css);
+@import url(../blocks/support/__text/_grid-position/support__text_grid-position_time.css);
