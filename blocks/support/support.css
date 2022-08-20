@@ -1,0 +1,18 @@
+.support {
+  background: #e7f0ff;
+  box-sizing: border-box;
+  padding: 100px 0;
+}
+
+@media screen and (max-width: 1439px) {
+  .support {
+    text-align: center;
+    padding: 38px 0 50px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .support {
+    padding: 31px 0 32px;
+  }
+}

@@ -1,0 +1,23 @@
+.whom__subtitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    margin: 20px 0px 0px 30px;
+    padding: 0;
+}
+
+@media screen and (max-width: 1439px) {
+    .whom__subtitle {
+        font-size: 16px;
+        line-height: 120%;
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .whom__subtitle {
+        font-size: 14px;
+        margin: 10px 0px 0px 24px;
+    }
+}

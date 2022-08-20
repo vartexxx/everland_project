@@ -1,0 +1,5 @@
+.title_sz_h4 {
+  font-weight: 700;
+  font-size: 24px;
+  font-feature-settings: "pnum" on, "lnum" on;
+}
