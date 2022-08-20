@@ -1,0 +1,15 @@
+.title_sz_h3 {
+  font-size: 34px;
+}
+
+@media screen and (max-width: 1023px) {
+  .title_sz_h3 {
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .title_sz_h3 {
+    font-size: 18px;
+  }
+}

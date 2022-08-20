@@ -1,8 +1,8 @@
 .stories__container {
     max-width: 1360px;
-    padding: 150px 0px 150px 0px;
+    padding: 150px 0px 100px 0px;
     display: grid;
-    grid-template: auto 1fr 1fr / 1fr;
+    grid-template: repeat(3, auto) / 1fr;
     grid-template-areas: 
     'info-container'
     'cards'
@@ -16,7 +16,7 @@
         padding: 100px 0px 50px 0px;
         display: grid;
         grid-template-columns: auto;
-        grid-template-rows: repeat(5, auto);
+        grid-template-rows: repeat(4, auto);
         grid-template-areas: none;
         row-gap: 40px;
     }

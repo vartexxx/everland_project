@@ -1,0 +1,22 @@
+.advantages__accordeons {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: calc(100% / 2);
+}
+
+
+@media screen and (max-width: 768px) {
+  .advantages__accordeons {
+     width: 100%;
+     margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .advantages__accordeons {
+     width: 100%;
+     margin: 0 auto;
+     gap: 16px;
+  }
+}

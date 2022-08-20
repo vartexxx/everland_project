@@ -1,0 +1,25 @@
+.whom__elements {
+    grid-area: elements;
+    display: grid;
+    grid-template: 428px / 440px 440px 440px;
+    column-gap: 20px;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 1439px) {
+    .whom__elements {
+        margin-top: 32px;
+        gap: 20px 0px;
+        grid-template-columns: 450px;
+        grid-template-rows: minmax(272px, 1fr);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .whom__elements {
+        margin-top: 24px;
+        gap: 16px 0px;
+        grid-template-columns: 300px;
+        grid-template-rows: minmax(269px, 293px);
+    }
+}
