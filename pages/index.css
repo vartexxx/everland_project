@@ -27,31 +27,6 @@
 @import url(../blocks/menu/menu.css);
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/_position/logo_position_header.css);
-@import url(../blocks/menu/__small-container/menu__small-container.css);
-@import url(../blocks/menu/__small-link/menu__small-link.css);
-@import url(../blocks/menu/__open-icon/menu__open-icon.css);
-@import url(../blocks/menu/__image/menu__image.css);
-@import url(../blocks/menu/__image/_opened/menu__image_opened.css);
-@import url(../blocks/menu/__title/menu__title.css);
-@import url(../blocks/menu/__big-container/menu__big-container.css);
-@import url(../blocks/menu/__card/menu__card.css);
-@import url(../blocks/menu/__big-title/menu__big-title.css);
-@import url(../blocks/menu/__big-link/menu__big-link.css);
-@import url(../blocks/menu/__important-links/menu__important-links.css);
-@import url(../blocks/menu/__important-link/menu__important-link.css);
-@import url(../blocks/menu/__buttons/menu__buttons.css);
-@import url(../blocks/menu/__button/menu__button.css);
-@import url(../blocks/menu/__bigtitle-mobile/menu__bigtitle-mobile.css);
-@import url(../blocks/menu/__button-status-mobile/menu__button-status-mobile.css);
-@import url(../blocks/menu/__button-status-mobile/_opened/menu__button-status-mobile_opened.css);
-@import url(../blocks/menu/__big-link/_opened/menu__big-link_opened.css);
-
-@import url(../blocks/header/header.css);
-@import url(../blocks/header/__container/header__container.css);
-@import url(../blocks/header/__fixed/header__fixed.css);
-@import url(../blocks/menu/menu.css);
-@import url(../blocks/logo/logo.css);
-@import url(../blocks/logo/_position/logo_position_header.css);
 @import url(../blocks/menu/__white-space/menu__white-space.css);
 @import url(../blocks/menu/__small-container/menu__small-container.css);
 @import url(../blocks/menu/__small-link/menu__small-link.css);
@@ -224,3 +199,35 @@
 @import url(../blocks/figure/__caption/figure__caption.css);
 @import url(../blocks/figure/__link/figure__link.css);
 @import url(../blocks/button/_place/button_place_agency.css);
+
+/* footer */
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__container/footer__container.css);
+@import url(../blocks/footer/__presentation-and-links/footer__presentation-and-links.css);
+@import url(../blocks/footer/__presentation/footer__presentation.css);
+@import url(../blocks/logo/_position/logo_position_footer.css);
+@import url(../blocks/footer/__descriptions/footer__descriptions.css);
+@import url(../blocks/footer/__description/footer__description.css);
+@import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__links-column/footer__links-column.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__support-and-subscription/footer__support-and-subscription.css);
+@import url(../blocks/footer/__support/footer__support.css);
+@import url(../blocks/footer/__title/footer__title.css);
+@import url(../blocks/footer/___link-icons/footer___link-icons.css);
+@import url(../blocks/footer/__link-icon-beeline/footer__link-icon-beeline.css);
+@import url(../blocks/footer/__link-icon-fpg/footer__link-icon-fpg.css);
+@import url(../blocks/footer/__contacts/footer__contacts.css);
+@import url(../blocks/footer/__telefons/footer__telefons.css);
+@import url(../blocks/footer/__telefon/footer__telefon.css);
+@import url(../blocks/footer/__adress/footer__adress.css);
+@import url(../blocks/footer/__subscription/footer__subscription.css);
+@import url(../blocks/footer/__title/_mobile-support/footer__title_mobile-support.css);
+@import url(../blocks/footer/__social-icons/footer__social-icons.css);
+@import url(../blocks/footer/__link-icon-telegramm/footer__link-icon-telegramm.css);
+@import url(../blocks/footer/__link-icon-vk/footer__link-icon-vk.css);
+@import url(../blocks/footer/__copyring/footer__copyring.css);
+@import url(../blocks/footer/_practiсum/footer__practiсum.css);
+@import url(../blocks/footer/__image-practicum/footer__image-practicum.css);
+@import url(../blocks/footer/__annotation/footer__annotation.css);

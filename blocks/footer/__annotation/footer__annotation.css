@@ -1,0 +1,19 @@
+.footer__annotation {
+  margin: 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.3;
+}
+
+@media (max-width: 1439px) {
+  .footer__annotation {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+  }
+}
+@media (max-width: 767px) {
+  .footer__annotation {
+    font-size: 12px;
+  }
+}

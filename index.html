@@ -73,14 +73,14 @@
           </div>
           <div class="menu__white-space"></div>
           <ul class="menu__small-container">
-            <li><a class="menu__small-link menu__link_pointer_whom" href="#">Для кого</a></li>
-            <li><a class="menu__small-link menu__link_pointer_directions" href="#">Направления работы</a></li>
-            <li><a class="menu__small-link menu__link_pointer_advantages" href="#">Преимущества</a></li>
-            <li><a class="menu__small-link menu__link_pointer_numbers" href="#">Основные цифры</a></li>
-            <li><a class="menu__small-link menu__link_pointer_projects" href="#">Спецпроекты</a></li>
-            <li><a class="menu__small-link menu__link_pointer_stories" href="#">Истории</a></li>
-            <li><a class="menu__small-link menu__link_pointer_agency" href="#">Агентство</a></li>
-            <li><a class="menu__small-link menu__link_pointer_news" href="#">Новости</a></li>
+            <li><a class="menu__small-link menu__link_pointer_whom" href="#whom">Для кого</a></li>
+            <li><a class="menu__small-link menu__link_pointer_directions" href="#destinations">Направления работы</a></li>
+            <li><a class="menu__small-link menu__link_pointer_advantages" href="#advantages">Преимущества</a></li>
+            <li><a class="menu__small-link menu__link_pointer_numbers" href="#numbers">Основные цифры</a></li>
+            <li><a class="menu__small-link menu__link_pointer_projects" href="#projects">Спецпроекты</a></li>
+            <li><a class="menu__small-link menu__link_pointer_stories" href="#stories">Истории</a></li>
+            <li><a class="menu__small-link menu__link_pointer_agency" href="#agency">Агентство</a></li>
+            <li><a class="menu__small-link menu__link_pointer_news" href="#news">Новости</a></li>
           </ul>
         </div>
         <script src="./src/header.js"></script>
@@ -259,7 +259,8 @@
           </div>
         </section>
 <!--Блок “Для кого”-->
-        <section class="main__whom whom"> 
+        <section class="main__whom whom" id="whom"> 
+
           <div class="container whom__container">
               <h2 class="main__title">Для кого мы работаем</h2>
               <div class="whom__elements">
@@ -269,7 +270,7 @@
                       <p class="whom__subtitle">Помогаем найти работу, пройти обучение, предоставляем разные виды поддержки</p>
                       <a href="#" class="link link_blue">Подробнее</a>
                   </div>
-              
+
                   <div class="whom__element">
                       <img src="./images/card2_icon.jpg" alt="Иконка с портфелем" class="whom__icon">
                       <h4 class="whom__title">Для работодателей</h4>
@@ -286,8 +287,8 @@
             </div>
         </div>
     </section>
-    <!--Блок “Направления работы”-->
-              <section class="destinations" id="destinations"> 
+ <!--Блок “Направления работы”-->
+              <section class="destinations" id="destinations">
                 <div class="container">
                   <h2 class="title title_sz_h2">Наши направления</h2>
                 </div>
@@ -343,7 +344,7 @@
 
               </section>
 
-        <section class="advantages container">
+        <section class="advantages container" id="advantages">
           <h2 class="title_sz_h2">
             <span class="advantages__word">Главное в </span>работе
           </h2>
@@ -427,7 +428,7 @@
           </div>
         </section>
 
-        <section class="numbers container">
+        <section class="numbers container" id="numbers">
           <h2 class="title_sz_h2">Everland в цифрах</h2>
           <div class="numbers__container">
             <img
@@ -479,7 +480,7 @@
           </div>
         </section>
 
-        <section class="stories">
+        <section class="stories" id="stories">
             <div class="main__container stories__container">
 
                 <div class="stories__info-container">
@@ -510,7 +511,7 @@
                                 заинтересован в трудоустройстве инвалидов
                            </h4>
                            <p class="stories__text">Максиму Чернышову из&nbsp;Набережных Челнов
-                                32&nbsp;года. В&nbsp;детстве он&nbsp;неудачно сделал сальто и&nbsp;повредил позвоночник. 
+                                32&nbsp;года. В&nbsp;детстве он&nbsp;неудачно сделал сальто и&nbsp;повредил позвоночник.
                                 С&nbsp;тех пор ему тяжело передвигаться на&nbsp;большие расстояния
                            </p>
                            <a href="#" class="stories__card-link stories__card-link_blue">История Максима</a>
@@ -548,14 +549,14 @@
                             </div>
                         </div>
                     </div>
-                    
+
                 </div>
 
             </div>
 
         </section>
         <!--Блок “Агентство”-->
-        <section class="agency" id="agency"> 
+        <section class="agency" id="agency">
             <div class="container">
                 <h2 class="title title_sz_h2">Лучшие проекты агентства</h2>
                 <div class="agency__content">
@@ -575,7 +576,7 @@
                 <a class="button button_place_agency" href="#">Посмотреть все</a>
             </div>
         </section>
-        
+
         <section class="support" id="support">
             <!--Блок “Поддержать”-->
             <div class="container">
@@ -860,10 +861,71 @@
               </div>
             </div>
           </section>
-        
+
         </main>
 
-        <footer class="footer"></footer> <!--Футер-->
+        <footer class="footer">
+          <div class="footer__container">
+          <div class="footer__presentation-and-links">
+            <div class="footer__presentation">
+              <div class="logo logo_position_footer"></div>
+              <div class="footer__descriptions">
+                <p class="footer__description">
+                  Платформа Everland — инклюзивный социальный предпринимательский проект.
+                </p>
+                <p class="footer__description">
+                  Реализуется ООО «ЭВЕРЛЭНД», АНО «Пространство равных возможностей».
+                </p>
+              </div>
+
+            </div>
+            <div class="footer__links">
+              <div class="footer__links-column">
+                <a class="footer__link" href="#">О проекте</a>
+                <a class="footer__link" href="#">Услуги</a>
+                <a class="footer__link" href="#">Людям с&nbsp;инвалидностью</a>
+              </div>
+              <div class="footer__links-column">
+                <a class="footer__link" href="#">Программы</a>
+                <a class="footer__link" href="#">Платформа</a>
+                <a class="footer__link" href="#">Мы&nbsp;благодарим</a>
+              </div>
+            </div>
+
+          </div>
+          <div class="footer__support-and-subscription">
+            <div class="footer__support">
+              <div class="footer__title">При поддержке</div>
+              <div class="footer___link-icons">
+                <a class="footer__link-icon-beeline" href="#"></a>
+                <a class="footer__link-icon-fpg" href="#"></a>
+              </div>
+              <div class="footer__contacts">
+                <div class="footer__telefons">
+                  <p class="footer__telefon">+7 (495) 646 04 28</p>
+                  <p class="footer__telefon">+7 (985) 473 08 93</p>
+                </div>
+                <p class="footer__adress">Гоголевский бульвар, дом 8, строение 2, офис 8, Москва, Россия.</p>
+              </div>
+            </div>
+           <div class="footer__subscription">
+              <div class="footer__title footer__title_mobile-support">Подписывайтесь на нас в соцсетях</div>
+              <div class="footer__social-icons">
+                <a class="footer__link-icon-telegramm" href="#"></a>
+                <a class="footer__link-icon-vk" href="#"></a>
+              </div>
+              <p class="footer__copyring">© ООО «ЭВЕРЛЭНД», АНО «Пространство равных возможностей».
+                Если не указано иначе, все материалы сайта доступны по лицензии Creative Commons CC-BY-SA 3.0
+              </p>
+            </div>
+          </div>
+          <div class="footer__practiсum">
+            <div class="footer__image-practicum"></div>
+            <p class="footer__annotation">сделано при участии Яндекс Практикума</p>
+          </div>
+          </div>
+        </footer>
+        <!--Футер-->
         <script src="./src/everland.js"></script>
         <script src="./src/advantages.js"></script>
         <script src="./src/donation.js"></script>

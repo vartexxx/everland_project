@@ -1,0 +1,21 @@
+.footer__telefons {
+  display: flex;
+  flex-direction: column;
+  max-width: 204px;
+  width: 100%;
+  gap: 3px;
+}
+
+@media (max-width: 1439px) {
+  .footer__telefons {
+    gap: 16px;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer__telefons {
+    flex-direction: row;
+    max-width: none;
+    gap: 16px;
+  }
+}
