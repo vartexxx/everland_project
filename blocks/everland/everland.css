@@ -7,9 +7,10 @@
 
 @media screen and (max-width: 1439px) {
     .everland {
+        grid-template-columns: 1fr;
         grid-template-rows: auto;
         max-width: calc(768px - 80px);
-        padding: 56px 0px 50px 0px;
+        padding: 56px 0px 0px 0px;
     }
 }
 
