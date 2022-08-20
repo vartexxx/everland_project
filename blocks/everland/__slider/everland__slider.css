@@ -8,8 +8,8 @@
 @media screen and (max-width: 1439px) {
     .everland__slider {
         margin: 0;
-        position: absolute;
-        top: 320px;
+        position: relative;
+        top: -50px;
     }
 }
 
