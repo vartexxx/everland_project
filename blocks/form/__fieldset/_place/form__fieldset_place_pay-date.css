@@ -2,23 +2,20 @@
   padding-top: 28px;
   padding-bottom: 39px;
   display: grid;
-  grid-template-columns: 455px;
-  grid-template-rows: repeat(2, 48px);
+  grid-template-columns: 455px;  
   grid-gap: 21px;
 }
 
 @media screen and (max-width: 1439px) {
   .form__fieldset_place_pay-date {
     padding-top: 25px;
-    padding-bottom: 24px;
-    grid-template-rows: repeat(2, 44px);
+    padding-bottom: 24px;    
     grid-gap: 16px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .form__fieldset_place_pay-date {
-    grid-template-columns: 260px;
-    grid-template-rows: 44px 48px;
+    grid-template-columns: 260px;    
   }
 }
