@@ -1,4 +1,4 @@
-.main__title {
+.stories__main-title {
     font-style: normal;
     font-weight: 700;
     font-size: 64px;
@@ -9,14 +9,13 @@
 }
 
 @media screen and (max-width: 1439px) {
-    .main__title {
+    .stories__main-title {
         font-size: 36px;
-        
     }
 }
 
 @media screen and (max-width: 767px) {
-    .main__title {
+    .stories__main-title {
         font-size: 26px;
     }
 }
