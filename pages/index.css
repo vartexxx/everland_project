@@ -2,6 +2,7 @@
 
 @import url(../blocks/body/body.css);
 @import url(../blocks/container/container.css);
+
 @import url(../blocks/container/_place/container_place_destinations.css);
 @import url(../blocks/container/_place/container_place_donations.css);
 @import url(../blocks/container/_place/container_place_support.css);
@@ -9,7 +10,9 @@
 @import url(../blocks/title/_sz/title_sz_h2.css);
 @import url(../blocks/title/_sz/title_sz_h3.css);
 @import url(../blocks/title/_sz/title_sz_h4.css);
+@import url(../blocks/button/button.css);
 
+/* destinations */
 @import url(../blocks/destinations/destinations.css);
 @import url(../blocks/card/card.css);
 @import url(../blocks/card/_color/card_color_light-orange.css);
@@ -137,3 +140,86 @@
 @import url(../blocks/support/__text/_grid-position/support__text_grid-position_name.css);
 @import url(../blocks/support/__text/_grid-position/support__text_grid-position_price.css);
 @import url(../blocks/support/__text/_grid-position/support__text_grid-position_time.css);
+/* Подключение секцтт advantages */
+@import url(../blocks/advantages/advantages.css);
+@import url(../blocks/advantages/__item/advantages__item.css);
+@import url(../blocks/advantages/__accordions/advantages__accordions.css);
+@import url(../blocks/advantages/__accordion/advantages__accordion.css);
+@import url(../blocks/advantages/__name/advantages__name.css);
+@import url(../blocks/advantages/__header/advantages__header.css);
+@import url(../blocks/advantages/__text/advantages__text.css);
+@import url(../blocks/advantages/__text/_opened/advantages__text_opened.css);
+@import url(../blocks/advantages/__word/advantages__word.css);
+@import url(../blocks/advantages/button/btn.css);
+@import url(../blocks/advantages/button/_type/btn_type_close.css);
+@import url(../blocks/title/title.css);
+/* Подключение секцтт numbers */
+@import url(../blocks/numbers/numbers.css);
+@import url(../blocks/numbers/__container/numbers__container.css);
+@import url(../blocks/numbers/__items/numbers__items.css);
+@import url(../blocks/numbers/__photo/numbers__photo.css);
+@import url(../blocks/numbers/__blocks/numbers__blocks.css);
+@import url(../blocks/numbers/__block/numbers__block.css);
+@import url(../blocks/numbers/__header/numbers__header.css);
+@import url(../blocks/numbers/__header/_colour/numbers__header_colour_blue.css);
+@import url(../blocks/numbers/__text/numbers__text.css);
+@import url(../blocks/forthcoming/forthcoming.css);
+
+/*Подключенеи секции whom*/
+@import url(../blocks/whom/whom.css);
+@import url(../blocks/whom/__container/whom__container.css);
+@import url(../blocks/whom/__element/whom__element.css);
+@import url(../blocks/whom/__elements/whom__elements.css);
+@import url(../blocks/whom/__title/whom__title.css);
+@import url(../blocks/whom/__icon/whom__icon.css);
+@import url(../blocks/link/link.css);
+@import url(../blocks/link/_blue/link_blue.css);
+@import url(../blocks/link/_green/link_green.css);
+@import url(../blocks/link/_orange/link_orange.css);
+@import url(../blocks/link/_disable/link_disable.css);
+@import url(../blocks/whom/__title/whom__title.css);
+@import url(../blocks/whom/__subtitle/whom__subtitle.css);
+@import url(../blocks/main/__whom/main__whom.css);
+
+/*Секция Истории (Stories)*/
+@import url(../blocks/stories/stories.css);
+@import url(../blocks/stories/__main-title/stories__main-title.css);
+@import url(../blocks/main/__stories/main__stories.css);
+@import url(../blocks/stories/__container/stories__container.css);
+@import url(../blocks/stories/__title/stories__title.css);
+@import url(../blocks/stories/__info-container/stories__info-container.css);
+@import url(../blocks/stories/__link/stories__link.css);
+@import url(../blocks/link/_disable/link_disable.css);
+@import url(../blocks/stories/__cards/stories__cards.css);
+@import url(../blocks/stories/__card/stories__card.css);
+@import url(../blocks/stories/__image/stories__image.css);
+@import url(../blocks/stories/__card-link/stories__card-link.css);
+@import url(../blocks/stories/__text/stories__text.css);
+@import url(../blocks/stories/__quotation/stories__quotation.css);
+@import url(../blocks/stories/__card-link/_blue/stories__card-link_blue.css);
+@import url(../blocks/stories/__card-link/_disable/stories__card-link_disable.css);
+@import url(../blocks/stories/__card-text/stories__card-text.css);
+@import url(../blocks/stories/__quotation/_reverse/stories__quotation_reverse.css);
+@import url(../blocks/stories/__image/_reverse/stories__image_reverse.css);
+@import url(../blocks/stories/__card/_reverse/stories__card_reverse.css);
+@import url(../blocks/stories/__card-text/_reverse/stories__card-text_reverse.css);
+@import url(../blocks/two-cards/two-cards.css);
+@import url(../blocks/two-cards/__element/two-cards__element.css);
+@import url(../blocks/two-cards/__image/two-cards__image.css);
+@import url(../blocks/two-cards/__paragraph/two-cards__paragraph.css);
+@import url(../blocks/two-cards/__subtitle/two-cards__subtitle.css);
+@import url(../blocks/two-cards/__title/two-cards__title.css);
+@import url(../blocks/two-cards/__link/two-cards__link.css);
+@import url(../blocks/two-cards/__text-container/two-cards__text-container.css);
+@import url(../blocks/two-cards/__play/two-cards__play.css);
+@import url(../blocks/two-cards/__icon-play/two-cards__icon-play.css);
+
+/* agency */
+@import url(../blocks/agency/agency.css);
+@import url(../blocks/title/_place/title_place_agency.css);
+@import url(../blocks/agency/__content/agency__content.css);
+@import url(../blocks/figure/figure.css);
+@import url(../blocks/figure/__img/figure__img.css);
+@import url(../blocks/figure/__caption/figure__caption.css);
+@import url(../blocks/figure/__link/figure__link.css);
+@import url(../blocks/button/_place/button_place_agency.css);
