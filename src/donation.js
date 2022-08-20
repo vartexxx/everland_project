@@ -4,6 +4,7 @@ const donation500 = document.querySelector("#donation_500");
 const donation750 = document.querySelector("#donation_750");
 const donation1000 = document.querySelector("#donation_1000");
 const donationOther = document.querySelector("#donation_other");
+const donationLink = document.querySelector(".donations-link_place_donations");
 
 /* Получить доступ к dom элементам секции support */
 const support250 = document.querySelector("#support_250");
@@ -12,10 +13,24 @@ const support750 = document.querySelector("#support_750");
 const support1000 = document.querySelector("#support_1000");
 const supportOther = document.querySelector("#support_other");
 
-donation250.addEventListener("click", checkStatus);
+donationLink.addEventListener("click", checkStatus);
 
-function checkStatus(evt) {
-  if ((evt.target.checked = true)) {
-    support250.setAttribute("checked", true);
+function checkStatus() {
+  debugger;  
+  if (donation250.checked === true) {  
+    support250.setAttribute("checked", true);   
+
+  } else if (donation500.checked === true) {
+       
+    support500.setAttribute("checked", true);
+    
+  } else if (donation750.checked === true) {
+    support750.setAttribute("checked", true);
+
+  } else if (donation1000.checked === true) {    
+    support1000.setAttribute("checked", true);
+
+  } else {
+    supportOther.setAttribute("checked", true);
   }
 }
