@@ -1,0 +1,17 @@
+.two-cards__play {
+    display: flex;
+    margin: 0px 0px 30px 0px;
+    align-items: center;
+}
+
+@media screen and (max-width: 1439px) {
+    .two-cards__play {
+        margin: 0px 0px 30px 0px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .two-cards__play {
+        margin: 0px 0px auto 0px;
+    }
+}

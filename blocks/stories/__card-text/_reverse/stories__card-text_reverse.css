@@ -1,0 +1,21 @@
+.stories__card-text_reverse {
+    grid-row: 1;
+    grid-column: 2;
+    margin: 0px 80px 0px 0px;
+}
+
+@media screen and (max-width: 1439px) {
+    .stories__card-text_reverse {
+        margin: 32px 0px 0px 0px;
+        grid-row: 1;
+        grid-column: 1;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .stories__card-text_reverse {
+        grid-row: 3;
+        grid-column: 1;
+        margin-top: 20px;
+    }
+}
