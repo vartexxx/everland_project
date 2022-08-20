@@ -1,0 +1,25 @@
+.advantages__text {
+  color: var(--black);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  display: none;
+  animation-name: forthcoming;
+  animation-duration: 1s;
+  padding: 0 20px 20px 20px;
+
+}
+
+@media screen and (max-width: 768px) {
+  .advantages__text {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .advantages__text {
+    padding: 20px 16px 20px 16px;
+    font-size: 14px;
+  }
+}
