@@ -1,6 +1,20 @@
 .whom__icon {
-    margin: 30px 0px 0px 30px;
+    margin: 30px 0px 40px 30px;
     padding: 0;
     width: 64px;
     height: 64px;
+}
+
+@media screen and (max-width: 1439px) {
+    .whom__icon {
+        width: 48px;
+        height: 48px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .whom__icon {
+        margin: 24px 0px 20px 24px;
+    }
 }

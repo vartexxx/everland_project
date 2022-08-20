@@ -1,0 +1,26 @@
+.numbers__header {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 120%;
+  color: var(--black);
+}
+
+@media screen and (max-width: 1359px) {
+  .numbers__header {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .numbers__header {
+    font-size: 26px;
+  }
+}
+
+
+@media screen and (max-width: 320px) {
+  .numbers__header {
+    font-size: 18px;
+  }
+}

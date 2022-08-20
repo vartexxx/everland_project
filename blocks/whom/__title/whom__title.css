@@ -3,6 +3,21 @@
     font-size: 34px;
     font-weight: 700;
     line-height: 120%;
-    margin: 0;
+    margin: 0px 0px 0px 30px;
     padding: 0;
+}
+
+@media screen and (max-width: 1439px) {
+    .whom__title {
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .whom__title {
+        font-size: 18px;
+        margin-left: 24px;
+        margin-right: 45px;
+        letter-spacing: -0.01em;
+    }
 }
