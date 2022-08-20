@@ -13,4 +13,5 @@
 @import url(../blocks/figure/figure.css);
 @import url(../blocks/figure/__img/figure__img.css);
 @import url(../blocks/figure/__caption/figure__caption.css);
+@import url(../blocks/figure/__link/figure__link.css);
 @import url(../blocks/btn/_place/btn_place_agency.css);
