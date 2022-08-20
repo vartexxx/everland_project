@@ -1,0 +1,19 @@
+.figure__caption {
+  font-weight: 700;
+  margin-top: 20px;
+  font-size: 24px;
+  width: 438px;
+}
+
+@media screen and (max-width: 1023px) {
+  .figure__caption {
+    font-size: 16px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .figure__caption {
+    margin-top: 16px;
+  }
+}

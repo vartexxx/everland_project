@@ -2,6 +2,7 @@
 
 @import url(../blocks/body/body.css);
 @import url(../blocks/container/container.css);
+
 @import url(../blocks/container/_place/container_place_destinations.css);
 @import url(../blocks/container/_place/container_place_donations.css);
 @import url(../blocks/container/_place/container_place_support.css);
@@ -9,7 +10,9 @@
 @import url(../blocks/title/_sz/title_sz_h2.css);
 @import url(../blocks/title/_sz/title_sz_h3.css);
 @import url(../blocks/title/_sz/title_sz_h4.css);
+@import url(../blocks/btn/btn.css);
 
+/* destinations */
 @import url(../blocks/destinations/destinations.css);
 @import url(../blocks/card/card.css);
 @import url(../blocks/card/_color/card_color_light-orange.css);
@@ -210,3 +213,13 @@
 @import url(../blocks/two-cards/__text-container/two-cards__text-container.css);
 @import url(../blocks/two-cards/__play/two-cards__play.css);
 @import url(../blocks/two-cards/__icon-play/two-cards__icon-play.css);
+
+/* agency */
+@import url(../blocks/agency/agency.css);
+@import url(../blocks/title/_place/title_place_agency.css);
+@import url(../blocks/agency/__content/agency__content.css);
+@import url(../blocks/figure/figure.css);
+@import url(../blocks/figure/__img/figure__img.css);
+@import url(../blocks/figure/__caption/figure__caption.css);
+@import url(../blocks/figure/__link/figure__link.css);
+@import url(../blocks/btn/_place/btn_place_agency.css);
