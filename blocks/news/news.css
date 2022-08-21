@@ -9,7 +9,7 @@
 @media screen and (min-width: 320px) and (max-width : 767px) {
     .news {
         width: calc(100% - 10px*2);
-        padding: 0;
+        padding: 32px 0px 108px 0px;
         margin: 0 auto;
         position: relative;
     }
