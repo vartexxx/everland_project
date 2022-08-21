@@ -1,7 +1,7 @@
 .footer__links-column {
   display: flex;
   flex-direction: column;
-  max-width: fit-content;
+  max-width: 311px;
   width: 100%;
   gap: 10px;
 }
