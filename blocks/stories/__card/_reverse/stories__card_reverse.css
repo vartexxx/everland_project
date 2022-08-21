@@ -1,0 +1,5 @@
+.stories__card_reverse {
+    grid-template-rows: auto;
+    grid-template-columns: repeat(3, auto);
+    grid-template-areas: none;
+}

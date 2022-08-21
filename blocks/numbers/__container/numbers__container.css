@@ -1,0 +1,23 @@
+.numbers__container {
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 1439px) {
+  .numbers__container {
+    flex-direction: column-reverse;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .numbers__container {
+    flex-direction: column-reverse;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .numbers__container {
+    flex-direction: column-reverse;
+    max-width: calc(100% - 10px * 2);
+  }
+}

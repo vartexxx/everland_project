@@ -1,0 +1,22 @@
+.form__fieldset_place_pay-type {
+  display: grid;
+  grid-template-columns: repeat(2, 316px);
+  grid-gap: 20px;
+  margin-bottom: 23px;
+}
+
+@media screen and (max-width: 1439px) {
+  .form__fieldset_place_pay-type {
+    padding: 0 5px;
+    grid-template-columns: 316px 296px;
+    grid-gap: 16px;
+    margin-bottom: 32px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .form__fieldset_place_pay-type {
+    padding: 0;
+    grid-template-columns: repeat(2, 122px);
+  }
+}

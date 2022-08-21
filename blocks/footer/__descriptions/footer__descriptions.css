@@ -1,0 +1,12 @@
+.footer__descriptions {
+  padding-top: 20px;
+  max-width: 480px;
+  width: 100%;
+}
+
+@media (max-width: 1439px) {
+  .footer__descriptions {
+    padding-top: 16px;
+    max-width: 296px;
+  }
+}

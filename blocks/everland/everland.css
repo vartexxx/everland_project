@@ -1,0 +1,24 @@
+.everland {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(2, auto);
+    padding: 62px 0px 90px 0px;
+}
+
+@media screen and (max-width: 1439px) {
+    .everland {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        max-width: calc(768px - 80px);
+        padding: 56px 0px 0px 0px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .everland {
+        grid-template-columns: auto;
+        grid-template-rows: repeat(2, auto);
+        max-width: 304px;
+        padding: 50px 0px 40px 0px;
+    }
+}
