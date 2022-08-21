@@ -1,1 +1,35 @@
 @import url(../vendor/normalize.css);
+
+@import url(../blocks/body/body.css);
+@import url(../blocks/container/container.css);
+
+/* Подлкючение секции Projects */
+@import url(../blocks/projects/projects.css);
+@import url(../blocks/projects/__slider-container/projects__slider-container.css);
+@import url(../blocks/projects/slider/__image/slider__image.css);
+@import url(../blocks/projects/slider/slider.css);
+@import url(../blocks/projects/sliders-control/sliders-control.css);
+@import url(../blocks/projects/sliders-control/__next/sliders-control__next.css);
+@import url(../blocks/projects/sliders-control/__prev/sliders-control__prev.css);
+@import url(../blocks/projects/slider/__info/slider__info.css);
+@import url(../blocks/projects/slider/__title/slider__title.css);
+@import url(../blocks/projects/slider/__theme/slider__theme.css);
+@import url(../blocks/projects/slider/__text/slider__text.css);
+@import url(../blocks/button/_place/button_place_news.css);
+@import url(../blocks/projects/slider/active/slider_active.css);
+
+/* Подлкючение секции News */
+@import url(../blocks/news/__title/news__title.css);
+@import url(../blocks//button/button.css);
+@import url(../blocks/button/color/button_color_blue.css);
+@import url(../blocks/button/color/button_color_dark.css);
+@import url(../blocks/card-news/__data/card-news__data.css);
+@import url(../blocks/card-news/__text/card-news__text.css);
+@import url(../blocks/card-news/__title/card-news__title.css);
+@import url(../blocks/card-news/__theme/card-news__theme.css);
+@import url(../blocks/card-news/card-news.css);
+@import url(../blocks/news/__cards/news__cards.css);
+@import url(../blocks/news/news.css);
+@import url(../blocks/button/place/button_place_news.css);
+@import url(../blocks/card-news/__image/card-news__image.css);
+@import url(../blocks/card-news/color/ard-news_color_green.css);

@@ -1,0 +1,60 @@
+.button {
+  border-radius: 10px;
+  border: 1px solid #0C4BA0;
+  color: #0C4BA0;
+  cursor: pointer;
+  font-family: 'Raleway', 'Arial', sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.1;
+  height: 48px;
+  padding: 12px 24px;
+  text-decoration: none;
+  display: block;
+
+  width: max-content;
+  box-sizing: border-box;
+  transition: border-color .2s linear, color .2s linear;
+}
+
+.button:hover {
+  border-color: #00275C;
+  color: #00275C;
+}
+
+.button:active {
+  background-color: #00275C;
+  color: #fff;
+}
+
+@media screen and (max-width: 1023px) {
+  .button {
+    height: 44px;
+    font-size: 16px;
+    padding: 12.5px 37.5px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .button {
+    text-align: center;
+    width: 100%;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .button {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 120%;
+    height: 44px;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width : 768px) {
+  .button_place_news {
+    width: 200px;
+    height: 44px;
+  }
+}
