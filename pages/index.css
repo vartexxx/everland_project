@@ -243,7 +243,7 @@
 @import url(../blocks/card-news/card-news.css);
 @import url(../blocks/news/__cards/news__cards.css);
 @import url(../blocks/news/news.css);
-@import url(../blocks/button/place/button_place_news.css);
+@import url(../blocks/button/_place/button_place_news.css);
 @import url(../blocks/card-news/__image/card-news__image.css);
 @import url(../blocks/card-news/color/ard-news_color_green.css);
 /*Секция Projects*/
@@ -258,5 +258,5 @@
 @import url(../blocks/projects/slider/__title/slider__title.css);
 @import url(../blocks/projects/slider/__theme/slider__theme.css);
 @import url(../blocks/projects/slider/__text/slider__text.css);
-@import url(../blocks/button/place/button_place_projects.css);
+@import url(../blocks/button/_place/button_place_projects.css);
 @import url(../blocks/projects/slider/active/slider_active.css);
