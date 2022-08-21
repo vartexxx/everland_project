@@ -118,7 +118,7 @@
 @import url(../blocks/support/__text/_grid-position/support__text_grid-position_time.css);
 /* Подключение секцтт advantages */
 @import url(../blocks/advantages/advantages.css);
-@import url(../blocks/advantages/__item/advantages__item.css);
+@import url(../blocks/advantages/__items/advantages__items.css);
 @import url(../blocks/advantages/__accordions/advantages__accordions.css);
 @import url(../blocks/advantages/__accordion/advantages__accordion.css);
 @import url(../blocks/advantages/__name/advantages__name.css);
