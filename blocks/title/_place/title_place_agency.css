@@ -1,7 +1,6 @@
 .title_place_agency {
   width: 955px;
   margin-top: 20px;
-  letter-spacing: -1px;
 }
 
 @media screen and (max-width: 1023px) {
