@@ -1,0 +1,59 @@
+.card-news__data {
+    color: rgba(38, 38, 38, 0.5);
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    padding: 0;
+    margin: 0 auto 0 0;
+}
+
+@media screen and (min-width: 320px) and (max-width : 479px) {
+    .card-news__data {
+        font-weight: 500;
+        font-size: 12px;
+        padding: 0;
+        margin: 20px 0 0 0;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width : 767px) {
+    .card-news__data {
+        font-weight: 500;
+        font-size: 14px;
+        padding: 0;
+        margin: 20px 0 0 0;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width : 1024px) {
+    .card-news__data {
+        padding: 0;
+        margin: 0 auto 0 0;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 120%;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width : 1439px) {
+    .card-news__data {
+        padding: 0;
+        margin: 0 auto 0 0;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 120%;
+        font-feature-settings: 'pnum' on, 'lnum' on;
+    }
+
+    #card-3 .card-news__data {
+        margin: auto auto 0 0;
+    }
+}

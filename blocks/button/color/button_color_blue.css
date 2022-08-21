@@ -1,0 +1,15 @@
+.button_color_blue {
+    color: #0C4BA0;
+    border: 1px solid #0C4BA0;
+}
+
+.button_color_blue:hover {
+    color: #00275C;
+    border: 2px solid #00275C;
+}
+
+.button_color_blue:active {
+    background: #00275C;
+    color: #FFFFFF;
+    border: 1px solid #00275C;
+}
