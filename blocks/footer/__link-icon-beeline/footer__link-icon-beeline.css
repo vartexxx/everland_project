@@ -1,5 +1,5 @@
 .footer__link-icon-beeline {
-  background-image: url(../../../images/bilain.png);
+  background-image: url(../../../images/bilain.svg);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -14,7 +14,7 @@
 
 @media (max-width: 1439px) {
   .footer__link-icon-beeline {
-    background-image: url(../../../images/beeline-quadro.png);
+    background-image: url(../../../images/beeline-quadro.svg);
     width: 51px;
     height: 40px;
   }
