@@ -1,5 +1,5 @@
 .news {
-    padding: 0;
+    padding: 100px 0px 100px 0px;
     margin: 0 auto;
     width: calc(100% - 2*40px);
     position: relative;
