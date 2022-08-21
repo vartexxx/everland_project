@@ -1,0 +1,21 @@
+.footer__practiсum {
+  display: flex;
+  gap: 21px;
+  align-items: center;
+  padding-top: 45px;
+}
+
+@media (max-width: 1439px) {
+  .footer__practiсum {
+    gap: 10px;
+    padding-top: 34px;
+  }
+}
+@media (max-width: 767px) {
+  .footer__practiсum {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding-top: 40px;
+  }
+}

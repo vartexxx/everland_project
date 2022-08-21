@@ -1,0 +1,9 @@
+.main__whom {
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 767px) {
+    .main__whom {
+        margin-top: 32px;
+    }
+}

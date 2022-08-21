@@ -1,0 +1,15 @@
+.footer__image-practicum {
+  background-image: url(../../../images/yandex-practicum-black.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 161px;
+  height: 28px;
+}
+
+@media (max-width: 1439px) {
+  .footer__image-practicum {
+    width: 115px;
+    height: 20px;
+  }
+}

@@ -1,0 +1,31 @@
+.numbers__container {
+  display: flex;
+  flex-direction: row;
+  padding-top: 50px;
+}
+
+@media screen and (max-width: 1439px) {
+  .numbers__container {
+    flex-direction: column-reverse;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .numbers__container {
+    padding-top: 32px;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .numbers__container {
+    flex-direction: column-reverse;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .numbers__container {
+    flex-direction: column-reverse;
+    max-width: calc(100% - 10px * 2);
+    padding-top: 24px;
+  }
+}

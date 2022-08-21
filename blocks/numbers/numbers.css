@@ -1,0 +1,15 @@
+.numbers {
+  padding-top: 150px;
+}
+
+@media screen and (max-width: 768px) {
+  .numbers {
+    padding-top: 100px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .numbers {
+    padding-top: 64px;
+  }
+}

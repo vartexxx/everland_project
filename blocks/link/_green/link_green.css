@@ -1,0 +1,17 @@
+.link_green {
+    background-color: #DAEFD5;
+    background-image: url(../../../images/arrow__green.svg);
+    color: #319B17;
+}
+
+.link_green:hover {
+    color: white;
+    background-color: #319B17;
+    background-image: url(../../../images/arrow__white.svg);
+}
+
+.link_green:active {
+    background-color: #0E4900;
+    color: white;
+    background-image: url(../../../images/arrow__white.svg);
+}

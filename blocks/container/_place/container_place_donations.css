@@ -1,0 +1,27 @@
+.container_place_donations {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  background: #e7f0ff;
+  border-radius: 10px;
+  padding: 58px 54px 58px 30px;
+}
+
+@media screen and (max-width: 1439px) {
+  .container_place_donations {
+    padding: 48px 40px 48px 40px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .container_place_donations {
+    padding: 32px 24px 36px 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container_place_donations {
+    padding: 32px 20px;
+    flex-direction: column;
+  }
+}
