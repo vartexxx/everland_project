@@ -1,6 +1,7 @@
 .projects {
     padding: 150px 0px 150px 0px;
     margin: 50px auto;
+    max-width: 1360px;
     width: calc(100% - 2*40px);
 }
 
