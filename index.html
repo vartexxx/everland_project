@@ -110,10 +110,10 @@
             </div>
           </nav>
           <div class="menu__buttons">
-            <button class="menu__button menu__button_pointer_platform">
+            <button onclick="document.location='#everland'" class="menu__button menu__button_pointer_platform">
               Платформа
             </button>
-            <button
+            <button onclick="document.location='#support'"
               class="menu__button menu__button_pointer_support menu__button_active"
             >
               Поддержать
@@ -174,13 +174,13 @@
           </li>
         </ul>
       </div>
-      <script src="./src/header.js"></script>
+
     </header>
 
     <main class="main">
       <!--Блок “Everland - социально-предпринимательский проект”-->
       <!--JS слайдер-->
-      <section class="main__container everland">
+      <section class="main__container everland" id="everland">
         <div class="slide slide_active fade">
           <h1 class="everland__title">
             <span class="everland__span">Everland</span>&nbsp;&mdash; социальный
@@ -673,8 +673,8 @@
           </div>
         </div>
       </section>
-      
-      <section class="projects">
+
+      <section class="projects" id="projects">
         <!--Блок “Спецпроекты”-->
         <!--JS Слайдер-->
         <div class="projects__slider-container">
@@ -725,7 +725,7 @@
                     </div>
                     <img class='slider__image' src="images/projects.png" alt="Социальное фото">
                 </div>
-                
+
                 <div class="slider" id="slide-5">
                     <p class="slider__theme">Наши спецпроекты</p>
                     <div class="slider__info">
@@ -914,7 +914,7 @@
         </div>
       </section>
 
-      <section class="news">
+      <section class="news" id="news">
         <!--Блок “Новости”-->
         <h2 class="news__title">Новости</h2>
         <button class="button button_color_blue button_place_news" type="button"><a href=#></a>Все новости</button>
@@ -1362,6 +1362,7 @@
       </div>
     </footer>
     <!--Футер-->
+    <script src="./src/header.js"></script>
     <script src="./src/everland.js"></script>
     <script src="./src/advantages.js"></script>
     <script src="./src/donation.js"></script>
