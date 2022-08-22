@@ -13,8 +13,10 @@ const support750 = document.querySelector("#support_750");
 const support1000 = document.querySelector("#support_1000");
 const supportOther = document.querySelector("#support_other");
 const inputOtherPrice = document.querySelector("#otherPrice");
+const supportSection = document.querySelector("#support");
 
 donationLink.addEventListener("click", checkStatus);
+donationLink.addEventListener("click", scrollTo);
 supportOther.addEventListener("click", disabledInput);
 
 function checkStatus() {
@@ -39,4 +41,8 @@ function disabledInput() {
   } else {
     inputOtherPrice.classList.add("form__input_disabled");
   }
+}
+
+function scrollTo() {
+  supportSection.scrollIntoView({ block: "start", behavior: "smooth" });
 }

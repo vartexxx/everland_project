@@ -13,8 +13,7 @@
 @media screen and (max-width: 767px) {
   .donations-link_place_donations {
     margin: auto;
-    width: 260px;
-    height: 44px;
+    width: 260px;    
     font-size: 14px;
   }
 }
