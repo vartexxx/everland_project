@@ -17,10 +17,13 @@ const supportSection = document.querySelector("#support");
 
 donationLink.addEventListener("click", checkStatus);
 donationLink.addEventListener("click", scrollTo);
+support250.addEventListener("click", disabledInput);
+support500.addEventListener("click", disabledInput);
+support750.addEventListener("click", disabledInput);
+support1000.addEventListener("click", disabledInput);
 supportOther.addEventListener("click", disabledInput);
 
 function checkStatus() {
-  debugger;
   if (donation250.checked) {
     support250.checked = true;
   } else if (donation500.checked) {
