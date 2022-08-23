@@ -19,7 +19,7 @@
 
 @media (max-width: 767px) {
   .footer__contacts {
-    padding-top: 47px;
+    padding-top: 33px;
     font-size: 12px;
     gap: 10px;
   }

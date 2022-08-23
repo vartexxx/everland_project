@@ -231,6 +231,7 @@
 @import url(../blocks/footer/_practiсum/footer__practiсum.css);
 @import url(../blocks/footer/__image-practicum/footer__image-practicum.css);
 @import url(../blocks/footer/__annotation/footer__annotation.css);
+@import url(../blocks/footer/__copyring-paragraph/footer__copyring-paragraph.css);
 /*Секция News*/
 @import url(../blocks/news/__title/news__title.css);
 @import url(../blocks//button/button.css);
