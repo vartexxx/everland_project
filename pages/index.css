@@ -102,6 +102,7 @@
 @import url(../blocks/form/__element-label/_grid-position/form__element-label_grid-position_price750.css);
 @import url(../blocks/form/__element-label/_grid-position/form__element-label_grid-position_price1000.css);
 @import url(../blocks/form/__element-label/_grid-position/form__element-label_grid-position_price-other.css);
+@import url(../blocks/form/__element-label/_grid-position/form__element-label_grid-position_price-other-donations.css);
 
 /* Подключение секции support */
 @import url(../blocks/support/support.css);
