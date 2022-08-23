@@ -11,8 +11,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  .support__title {
-    margin: 0 14px;
+  .support__title {    
     font-size: 16px;
   }
 }

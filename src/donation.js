@@ -13,12 +13,17 @@ const support750 = document.querySelector("#support_750");
 const support1000 = document.querySelector("#support_1000");
 const supportOther = document.querySelector("#support_other");
 const inputOtherPrice = document.querySelector("#otherPrice");
+const supportSection = document.querySelector("#support");
 
 donationLink.addEventListener("click", checkStatus);
+donationLink.addEventListener("click", scrollTo);
+support250.addEventListener("click", disabledInput);
+support500.addEventListener("click", disabledInput);
+support750.addEventListener("click", disabledInput);
+support1000.addEventListener("click", disabledInput);
 supportOther.addEventListener("click", disabledInput);
 
 function checkStatus() {
-  debugger;
   if (donation250.checked) {
     support250.checked = true;
   } else if (donation500.checked) {
@@ -39,4 +44,8 @@ function disabledInput() {
   } else {
     inputOtherPrice.classList.add("form__input_disabled");
   }
+}
+
+function scrollTo() {
+  supportSection.scrollIntoView({ block: "start", behavior: "smooth" });
 }

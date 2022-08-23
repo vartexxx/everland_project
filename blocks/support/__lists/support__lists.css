@@ -22,8 +22,8 @@
 
 @media screen and (max-width: 1439px) {
   .support__lists {
-    margin-top: 25px;
-    grid-gap: 17px;
+    margin-top: 27px;
+    grid-gap: 13px;
   }
 
   .support__lists .support__lists-item:nth-child(5) {
@@ -44,6 +44,11 @@
 }
 
 @media screen and (max-width: 767px) {
+  .support__lists {
+    margin-top: 28px;
+    grid-gap: 3px;
+  }
+
   .support__lists .support__lists-item:nth-child(3) {
     opacity: 0.4;
   }

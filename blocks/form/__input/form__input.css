@@ -1,6 +1,6 @@
 .form__input {
   margin: 0;
-  height: 48px;
+  height: 46px;
   padding: 0 0 0 20px;
   background: #ffffff;
   border: 1px solid #dadada;
@@ -24,6 +24,6 @@
     font-size: 14px;
   }
   .form__input {
-    height: 44px;
+    height: 42px;
   }
 }

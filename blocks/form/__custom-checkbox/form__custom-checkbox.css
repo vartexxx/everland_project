@@ -1,4 +1,4 @@
-.form__castom-checkbox {
+.form__custom-checkbox {
   position: relative;
   display: inline-block;
   margin-right: 3px;
@@ -9,7 +9,7 @@
   vertical-align: middle;
 }
 
-.form__castom-checkbox::before {
+.form__custom-checkbox::before {
   content: "";
   position: absolute;
   display: block;
@@ -24,6 +24,6 @@
   display: none;
 }
 
-.form__element:checked + .form__castom-checkbox::before {
+.form__element:checked + .form__custom-checkbox::before {
   display: block;
 }
