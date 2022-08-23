@@ -8,6 +8,7 @@
   .figure__img {
     width: 334px;
     height: 334px;
+    border-radius: 20px;
   }
 }
 
