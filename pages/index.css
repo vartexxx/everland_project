@@ -246,7 +246,7 @@
 @import url(../blocks/news/news.css);
 @import url(../blocks/button/_place/button_place_news.css);
 @import url(../blocks/card-news/__image/card-news__image.css);
-@import url(../blocks/card-news/color/ard-news_color_green.css);
+@import url(../blocks/card-news/color/card-news_color_green.css);
 /*Секция Projects*/
 @import url(../blocks/projects/projects.css);
 @import url(../blocks/projects/__slider-container/projects__slider-container.css);

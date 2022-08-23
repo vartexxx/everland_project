@@ -1,6 +1,6 @@
 .card-news__data {
     color: rgba(38, 38, 38, 0.5);
-    font-family: 'Raleway';
+    font-family: 'Raleway', 'Arial', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -32,25 +32,18 @@
     .card-news__data {
         padding: 0;
         margin: 0 auto 0 0;
-        font-family: 'Raleway';
-        font-style: normal;
         font-weight: 500;
         font-size: 14px;
         line-height: 120%;
-        font-feature-settings: 'pnum' on, 'lnum' on;
     }
 }
 
 @media screen and (min-width: 1025px) and (max-width : 1439px) {
     .card-news__data {
-        padding: 0;
         margin: 0 auto 0 0;
-        font-family: 'Raleway';
-        font-style: normal;
         font-weight: 500;
         font-size: 16px;
         line-height: 120%;
-        font-feature-settings: 'pnum' on, 'lnum' on;
     }
 
     #card-3 .card-news__data {

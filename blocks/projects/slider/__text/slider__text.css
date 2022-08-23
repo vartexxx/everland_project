@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0 auto 30px 0;
     max-width: 430px;
-    font-family: 'Raleway';
+    font-family: 'Raleway', 'Arial', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -12,54 +12,33 @@
 
 @media screen and (min-width: 320px) and (max-width : 479px) {
     .slider__text {
-        font-family: 'Raleway';
-        font-style: normal;
-        font-weight: 400;
         font-size: 14px;
         line-height: 120%;
         margin: 0 0 10px 0;
-        font-feature-settings: 'pnum' on, 'lnum' on;
-        padding: 0;
     }
 }
 
 @media screen and (min-width: 480px) and (max-width : 767px) {
     .slider__text {
-        font-family: 'Raleway';
-        font-style: normal;
-        font-weight: 400;
         font-size: 16px;
         line-height: 120%;
         margin: 0 0 10px 0;
-        font-feature-settings: 'pnum' on, 'lnum' on;
-        padding: 0;
     }
 }
 
 @media screen and (min-width: 768px) and (max-width : 1024px) {
     .slider__text {
-        padding: 0;
         margin: 0 auto 20px 0;
-        font-family: 'Raleway';
-        font-style: normal;
-        font-weight: 400;
         max-width: 315px;
         font-size: 16px;
         line-height: 120%;
-        font-feature-settings: 'pnum' on, 'lnum' on;
     }
 }
 
 @media screen and (min-width: 1025px) and (max-width : 1439px) {
     .slider__text {
-        padding: 0;
         margin: 0 auto 20px 0;
-        font-family: 'Raleway';
-        font-style: normal;
-        font-weight: 400;
         max-width: 350px;
         font-size: 18px;
-        line-height: 120%;
-        font-feature-settings: 'pnum' on, 'lnum' on;
     }
 }
