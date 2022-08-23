@@ -13,13 +13,7 @@
 
 @media screen and (min-width: 320px) and (max-width : 767px) {
     .card-news {
-        box-sizing: border-box;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
         padding: 23px;
-        background: #FFFFFF;
-        border: 1px solid #DADADA;
         border-radius: 20px;
         width: 100%;
         height: unset;

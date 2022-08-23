@@ -44,16 +44,9 @@
 
 @media screen and (max-width: 320px) {
   .button {
-      font-weight: 500;
-      font-size: 14px;
-      line-height: 120%;
-      height: 44px;
-  }
-}
-
-@media screen and (min-width: 321px) and (max-width : 768px) {
-  .button_place_news {
-      width: 200px;
-      height: 44px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 120%;
+    height: 44px;
   }
 }
