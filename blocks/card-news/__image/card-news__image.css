@@ -23,6 +23,10 @@
     #card-1 .card-news__image {
         margin: 0px auto 20px;
     }
+
+    #card-3 .card-news__image {
+        margin: 20px auto 10px;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width : 1024px) {

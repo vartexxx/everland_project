@@ -10,8 +10,6 @@
     .news {
         width: calc(100% - 10px*2);
         padding: 32px 0px 108px 0px;
-        margin: 0 auto;
-        position: relative;
     }
 }
 
@@ -19,8 +17,6 @@
     .news {
         width: calc(100% - 40px*2);
         padding: 50px 0px 66px 0px;
-        margin: 0 auto;
-        position: relative;
         min-height: 700px;
     }
 }
