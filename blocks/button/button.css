@@ -14,6 +14,7 @@
   width: max-content;
   box-sizing: border-box;
   transition: border-color .2s linear, color .2s linear;
+  outline: 0;
 }
 
 .button:hover {
