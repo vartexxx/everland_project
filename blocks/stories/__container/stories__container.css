@@ -8,6 +8,7 @@
     'cards'
     'two-cards';
     row-gap: 50px;
+    margin: 0 auto;
 }
 
 @media screen and (max-width: 1439px) {

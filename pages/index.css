@@ -143,6 +143,7 @@
 @import url(../blocks/forthcoming/forthcoming.css);
 
 /*Подключенеи секции whom*/
+@import url(../blocks/title/_whom/title_whom.css);
 @import url(../blocks/whom/whom.css);
 @import url(../blocks/whom/__container/whom__container.css);
 @import url(../blocks/whom/__element/whom__element.css);
@@ -161,7 +162,6 @@
 /*Секция Истории (Stories)*/
 @import url(../blocks/stories/stories.css);
 @import url(../blocks/stories/__main-title/stories__main-title.css);
-@import url(../blocks/main/__stories/main__stories.css);
 @import url(../blocks/stories/__container/stories__container.css);
 @import url(../blocks/stories/__title/stories__title.css);
 @import url(../blocks/stories/__info-container/stories__info-container.css);
