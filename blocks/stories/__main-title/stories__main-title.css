@@ -1,4 +1,4 @@
-.stories__main-title {
+.stories__main-title::before {
     font-style: normal;
     font-weight: 700;
     font-size: 64px;
@@ -6,16 +6,21 @@
     margin: 0;
     padding: 0;
     letter-spacing: -0.01em;
+    content: 'Истории';
 }
 
 @media screen and (max-width: 1439px) {
-    .stories__main-title {
+    .stories__main-title::before {
         font-size: 36px;
+        content: 'Наши истории';
+    }
+    .stories__main-title {
+        margin: 0;
     }
 }
 
 @media screen and (max-width: 767px) {
-    .stories__main-title {
+    .stories__main-title::before {
         font-size: 26px;
     }
 }
