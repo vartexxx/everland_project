@@ -1,0 +1,17 @@
+.projects__button-slider_direction_next {
+    background-image: url(../../../../images/arrow_forward.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.projects__button-slider_direction_next:hover {
+    background-image: url(../../../../images/arrow_forward.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.projects__button-slider_direction_next:active {
+    background-image: url(../../../../images/arrow_forward.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}

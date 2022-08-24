@@ -1,4 +1,4 @@
-.button_place_projects {
+.button_place_slider {
     padding: 0;
     margin: 0;
     position: absolute;
@@ -10,7 +10,7 @@
 }
 
 @media screen and (min-width: 320px) and (max-width : 767px) {
-    .button_place_projects {
+    .button_place_slider {
         width: calc(100% - 24px*2);
         bottom: 30px;
         left: 24px;
@@ -18,7 +18,7 @@
 }
 
 @media screen and (min-width: 768px) and (max-width : 1024px) {
-    .button_place_projects {
+    .button_place_slider {
         width: 200px;
     }
 }

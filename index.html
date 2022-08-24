@@ -496,7 +496,7 @@
               <h2 class="slider__title">Фотопроект &nbsp; «Семья как семья»</h2>
               <p class="slider__text">Фотопроект Алексея Горшенина включает в себя восемь историй людей и
                 семей, где один или оба супруга имеют инвалидность</p>
-              <button class="button button_color_dark button_place_projects">Посмотреть</button>
+              <button class="button button_color_dark button_place_slider">Посмотреть</button>
             </div>
             <img class='slider__image' src="images/projects.png" alt="Социальное фото">
           </div>
@@ -507,7 +507,7 @@
               <h2 class="slider__title">Lorem Ipsum</h2>
               <p class="slider__text">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,
                 consectetur, adipisci velit..."</p>
-              <button class="button button_color_dark button_place_projects">Посмотреть</button>
+              <button class="button button_color_dark button_place_slider">Посмотреть</button>
             </div>
             <img class='slider__image' src="images/lorem-ipsum.png" alt="Социальное фото">
           </div>
@@ -517,7 +517,7 @@
               <h2 class="slider__title">Фотопроект &nbsp; «Семья как семья»</h2>
               <p class="slider__text">Фотопроект Алексея Горшенина включает в себя восемь историй людей и
                 семей, где один или оба супруга имеют инвалидность</p>
-              <button class="button button_color_dark button_place_projects">Посмотреть</button>
+              <button class="button button_color_dark button_place_slider">Посмотреть</button>
             </div>
             <img class='slider__image' src="images/projects.png" alt="Социальное фото">
           </div>
@@ -528,7 +528,7 @@
               <h2 class="slider__title">Фотопроект &nbsp; «Семья как семья»</h2>
               <p class="slider__text">Фотопроект Алексея Горшенина включает в себя восемь историй людей и
                 семей, где один или оба супруга имеют инвалидность</p>
-              <button class="button button_color_dark button_place_projects">Посмотреть</button>
+              <button class="button button_color_dark button_place_slider">Посмотреть</button>
             </div>
             <img class='slider__image' src="images/projects.png" alt="Социальное фото">
           </div>
@@ -539,7 +539,7 @@
               <h2 class="slider__title">Lorem Ipsum</h2>
               <p class="slider__text">"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,
                 consectetur, adipisci velit..."</p>
-              <button class="button button_color_dark button_place_projects">Посмотреть</button>
+              <button class="button button_color_dark button_place_slider">Посмотреть</button>
             </div>
             <img class='slider__image' src="images/lorem-ipsum.png" alt="Социальное фото">
           </div>
@@ -549,15 +549,17 @@
               <h2 class="slider__title">Фотопроект &nbsp; «Семья как семья»</h2>
               <p class="slider__text">Фотопроект Алексея Горшенина включает в себя восемь историй людей и
                 семей, где один или оба супруга имеют инвалидность</p>
-              <button class="button button_color_dark button_place_projects" type="button">Посмотреть</button>
+              <button class="button button_color_dark button_place_slider" type="button">Посмотреть</button>
             </div>
             <img class='slider__image' src="images/projects.png" alt="Социальное фото">
           </div>
         </div>
-        <div class="sliders-control">
+        <div class="projects__sliders-control">
           <!-- Кнопки для перехода к предыдущему и следующему слайду -->
-          <button class="sliders-control__prev" data-slide="prev" type="button"> </button>
-          <button class="sliders-control__next" data-slide="next" type="button"></button>
+          <button class="projects__button-slider projects__button-slider_direction_prev" data-slide="prev"
+            type="button"> </button>
+          <button class="projects__button-slider projects__button-slider_direction_next" data-slide="next"
+            type="button"></button>
         </div>
       </div>
     </section>
@@ -644,7 +646,8 @@
     <section class="agency" id="agency">
       <div class="container">
         <h2 class="title title_sz_h2">Лучшие проекты агентства</h2>
-        <h3 class="title title_sz_h3 title_place_agency">Мы выполняем работы в области веб-разработки, дизайна, права, видео, анимации и контента</h3>
+        <h3 class="title title_sz_h3 title_place_agency">Мы выполняем работы в области веб-разработки, дизайна, права,
+          видео, анимации и контента</h3>
         <div class="agency__content">
           <figure class="figure">
             <img class="figure__img" src="./images/Image_5.png" alt="Скрипты-рекомендации для бизнеса (DisQuestion)." />
@@ -675,7 +678,7 @@
       <button class="button button_color_blue button_place_news" type="button">Все новости</button>
       <div class="news__cards">
 
-        <div class="card-news card-news_template_card-1" id="card-1">
+        <div class="card-news" id="card-1">
           <p class="card-news__theme">Тема</p>
           <img class='card-news__image' src="images/news1.png" alt="Фото партнеров">
           <h3 class="card-news__title">Ура! Новое партнерство — с PepsiCo</h3>
@@ -696,7 +699,7 @@
           <time class='card-news__data' datetime='2021-09-21'>20 сентября 2021</time>
         </div>
 
-        <div class="card-news card-news_template_card-3" id="card-3">
+        <div class="card-news" id="card-3">
           <p class="card-news__theme">Тема</p>
           <h3 class="card-news__title">Тестируем супермаркеты на доступность</h3>
           <p class="card-news__text">Everland совместно с торговой сетью «Перекресток» провели аудит
@@ -799,7 +802,7 @@
             <label class="form__element-label">
               <input type="radio" class="form__element" name="support_pay-method" id="webmoney" />
               <span class="form__custom-radio">
-                <img src="./images/pay-webmoney.svg" alt="webmoney"/>
+                <img src="./images/pay-webmoney.svg" alt="webmoney" />
               </span>
             </label>
             <button class="form__button form__button_type_arrow" type="button"></button>

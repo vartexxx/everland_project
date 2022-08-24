@@ -1,6 +1,6 @@
 //Переменные для блока "projects"
-const btnNext = document.querySelector('.sliders-control__next');
-const btnPrv = document.querySelector('.sliders-control__prev');
+const btnNext = document.querySelector('.projects__button-slider_direction_next');
+const btnPrv = document.querySelector('.projects__button-slider_direction_prev');
 const slidess = document.querySelectorAll('.slider');
 
 
