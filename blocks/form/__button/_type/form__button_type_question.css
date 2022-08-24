@@ -1,4 +1,5 @@
-.form__button_type_question {
+.form__button_type_question {  
+  text-align: center;
   width: 10px;
   height: 10px;
   margin-left: 8px;
@@ -8,7 +9,7 @@
   color: #fff;
   background: #0c4ba0;
   border-radius: 50%;
-  font-size: 10px;
+  font-size: 9px;
 }
 
 .form__button_type_question:hover {
@@ -17,16 +18,4 @@
 
 .form__button_type_question:active {
   background: #00275c;
-}
-
-@media screen and (max-width: 1439px) {
-  .form__button_type_question {
-    margin-left: 9px;
-  }
-}
-
-@media screen and (max-width: 1439px) {
-  .form__button_type_question {
-    margin-left: 5px;
-  }
 }
