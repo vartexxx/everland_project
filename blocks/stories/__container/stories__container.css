@@ -2,7 +2,7 @@
     max-width: 1360px;
     padding: 150px 0px 100px 0px;
     display: grid;
-    grid-template: repeat(3, auto) / 1fr;
+    grid-template: 77px auto auto / 1fr;
     grid-template-areas: 
     'info-container'
     'cards'
