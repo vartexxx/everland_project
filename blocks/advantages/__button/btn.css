@@ -1,5 +1,5 @@
 .btn {
-  background: url(../../../images/button.svg);
+  background: url(../../../images/Button.svg);
   background-position: center;
   background-repeat: no-repeat;
   height: 45px;
@@ -10,7 +10,7 @@
 }
 
 .btn:hover {
-  background: url(../../../images/closebuttonblue.svg) center no-repeat;
+  background: url(../../../images/CloseButtonBlue.svg) center no-repeat;
 }
 
 @media screen and (max-width: 1080px) {
