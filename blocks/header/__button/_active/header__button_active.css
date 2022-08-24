@@ -1,0 +1,17 @@
+.header__button_active {
+  color: #fff;
+  background-color: #0C4BA0;
+  border-color: #0C4BA0;
+}
+
+.header__button_active:not([disabled]):hover {
+  background-color: #4183DC;
+  color: #fff;
+  border-color: #4183DC;
+}
+
+.header__button_active:not([disabled]):active {
+  background-color: #00275C;
+  color: #fff;
+  border-color: #00275C;
+}
