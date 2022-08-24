@@ -9,41 +9,15 @@
 
 @media screen and (max-width: 768px) {
   .advantages__header {
-      padding: 18.5px 19px 18.5px 19px;
-      height: 31px;
+    padding: 18.5px 19px 18.5px 19px;
+    height: 31px;
   }
 }
-
 
 @media screen and (max-width: 375px) {
   .advantages__header {
-      height: 22px;
-      padding: 15px 16px 15px 16px;
-      margin: 0;
+    height: 22px;
+    padding: 15px 16px 15px 16px;
+    margin: 0;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
