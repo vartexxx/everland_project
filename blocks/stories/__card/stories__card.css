@@ -1,7 +1,7 @@
 .stories__card {
     display: grid;
     grid-template-rows: auto;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: repeat(3, auto);
     align-items: center;
 }
 
