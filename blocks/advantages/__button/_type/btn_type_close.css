@@ -1,0 +1,7 @@
+.btn_type_close {
+  background-image: url(../../../../images/buttonclose.svg);
+}
+
+.btn_type_close:hover {
+  background-image: url(../../../../images/buttonclose.svg);
+}
