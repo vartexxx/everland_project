@@ -7,7 +7,9 @@
 @media (max-width: 1439px) {
   .footer__link-icon_type_fpg {
     width: 88px;
-    height: 30px;
+    height: 40px;
+    background-size: cover;
+    background-position-y: top;
   }
 }
 
@@ -15,6 +17,7 @@
   .footer__link-icon_type_fpg {
     width: 72px;
     height: 48px;
+    background-size: contain;
     background-position-y: top;
   }
 }
