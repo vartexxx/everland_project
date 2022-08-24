@@ -14,7 +14,6 @@
 
 @media (max-width: 767px) {
   .footer___link-icons {
-    gap: 21px;
     padding-left: 10px;
     height: 48px;
   }
