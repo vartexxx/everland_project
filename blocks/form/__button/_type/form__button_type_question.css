@@ -1,0 +1,21 @@
+.form__button_type_question {  
+  text-align: center;
+  width: 10px;
+  height: 10px;
+  margin-left: 8px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  background: #0c4ba0;
+  border-radius: 50%;
+  font-size: 9px;
+}
+
+.form__button_type_question:hover {
+  background: #4183dc;
+}
+
+.form__button_type_question:active {
+  background: #00275c;
+}
