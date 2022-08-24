@@ -16,6 +16,5 @@
 @media screen and (max-width: 767px) {
     .whom__element {
         grid-template-columns: 300px;
-        grid-template-rows: 1fr auto auto 1fr;
     }
 }

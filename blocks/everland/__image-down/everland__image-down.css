@@ -13,7 +13,6 @@
 
 @media screen and (max-width: 767px) {
     .everland__image-down {
-        width: 170px;
         height: 160px;
     }
 }
