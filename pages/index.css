@@ -48,7 +48,6 @@
 @import url(../blocks/menu/__big-link/_opened/menu__big-link_opened.css);
 
 @import url(../blocks/main/main.css);
-@import url(../blocks/main/__title/main__title.css);
 @import url(../blocks/main/__container/main__container.css);
 
 @import url(../blocks/everland/everland.css);
@@ -140,7 +139,6 @@
 @import url(../blocks/numbers/__header/numbers__header.css);
 @import url(../blocks/numbers/__header/_colour/numbers__header_colour_blue.css);
 @import url(../blocks/numbers/__text/numbers__text.css);
-@import url(../blocks/forthcoming/forthcoming.css);
 
 /*Подключенеи секции whom*/
 @import url(../blocks/title/_whom/title_whom.css);
