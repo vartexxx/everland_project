@@ -11,6 +11,7 @@
     gap: 4px;
   }
 }
+
 @media (max-width: 767px) {
   .footer__social-icons {
     padding-top: 8px;
