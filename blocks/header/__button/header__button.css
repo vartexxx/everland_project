@@ -1,4 +1,4 @@
-.menu__button {
+.header__button {
   padding: 0;
   border: none;
   font: inherit;
@@ -19,45 +19,29 @@
 }
 
 @media (max-width: 1023px) {
-  .menu__button {
+  .header__button {
     width: 134px;
     height: 44px;
     font-size: 16px;
   }
 }
 
-.menu__button:not([disabled]):hover {
+.header__button:not([disabled]):hover {
   color: #00275C;
   border-color: #00275C;
   background-color: #fff;
 }
 
-.menu__button:not([disabled]):active {
+.header__button:not([disabled]):active {
   background-color: #00275C;
   color: #fff;
   border-color: #00275C;
 }
 
-.menu__button:disabled {
+.header__button:disabled {
   background-color: #F5F5F5;
   color: rgba(38, 38, 38, 0.5);
   border: 2px solid #C4C4C4;
 }
 
-.menu__button_active {
-  color: #fff;
-  background-color: #0C4BA0;
-  border-color: #0C4BA0;
-}
 
-.menu__button_active:not([disabled]):hover {
-  background-color: #4183DC;
-  color: #fff;
-  border-color: #4183DC;
-}
-
-.menu__button_active:not([disabled]):active {
-  background-color: #00275C;
-  color: #fff;
-  border-color: #00275C;
-}

@@ -27,9 +27,9 @@
 @import url(../blocks/menu/menu.css);
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/_position/logo_position_header.css);
-@import url(../blocks/menu/__white-space/menu__white-space.css);
-@import url(../blocks/menu/__small-container/menu__small-container.css);
-@import url(../blocks/menu/__small-link/menu__small-link.css);
+@import url(../blocks/header/__white-space/header__white-space.css);
+@import url(../blocks/header/__small-container/header__small-container.css);
+@import url(../blocks/header/__small-link/header__small-link.css);
 @import url(../blocks/menu/__open-icon/menu__open-icon.css);
 @import url(../blocks/menu/__image/menu__image.css);
 @import url(../blocks/menu/__image/_opened/menu__image_opened.css);
@@ -40,8 +40,9 @@
 @import url(../blocks/menu/__big-link/menu__big-link.css);
 @import url(../blocks/menu/__important-links/menu__important-links.css);
 @import url(../blocks/menu/__important-link/menu__important-link.css);
-@import url(../blocks/menu/__buttons/menu__buttons.css);
-@import url(../blocks/menu/__button/menu__button.css);
+@import url(../blocks/header/__buttons/header__buttons.css);
+@import url(../blocks/header/__button/header__button.css);
+@import url(../blocks/header/__button/_active/header__button_active.css);
 @import url(../blocks/menu/__bigtitle-mobile/menu__bigtitle-mobile.css);
 @import url(../blocks/menu/__button-status-mobile/menu__button-status-mobile.css);
 @import url(../blocks/menu/__button-status-mobile/_opened/menu__button-status-mobile_opened.css);
