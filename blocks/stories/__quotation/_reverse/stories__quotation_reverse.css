@@ -1,11 +1,6 @@
-.stories__quotation_reverse {
-    grid-row: 1;
-    grid-column: 1;
-}
-
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 768px) {
     .stories__quotation_reverse {
-        grid-row: 2;
+        grid-row: 1;
         grid-column: 1;
     }
 }
