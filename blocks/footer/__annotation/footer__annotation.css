@@ -12,6 +12,7 @@
     line-height: 1.2;
   }
 }
+
 @media (max-width: 767px) {
   .footer__annotation {
     font-size: 12px;

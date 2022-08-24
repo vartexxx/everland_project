@@ -11,11 +11,11 @@
     padding-top: 34px;
   }
 }
+
 @media (max-width: 767px) {
   .footer__practiсum {
     flex-direction: column;
     align-items: flex-start;
-    gap: 10px;
     padding-top: 40px;
   }
 }
