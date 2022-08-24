@@ -217,8 +217,11 @@
 @import url(../blocks/footer/__support/footer__support.css);
 @import url(../blocks/footer/__title/footer__title.css);
 @import url(../blocks/footer/___link-icons/footer___link-icons.css);
-@import url(../blocks/footer/__link-icon-beeline/footer__link-icon-beeline.css);
-@import url(../blocks/footer/__link-icon-fpg/footer__link-icon-fpg.css);
+@import url(../blocks/footer/__link-icon/footer__link-icon.css);
+@import url(../blocks/footer/__link-icon/_type/footer__link-icon_type_beeline.css);
+@import url(../blocks/footer/__link-icon/_type/footer__link-icon_type_fpg.css);
+@import url(../blocks/footer/__link-icon/_type/footer__link-icon_type_telegram.css);
+@import url(../blocks/footer/__link-icon/_type/footer__link-icon_type_vk.css);
 @import url(../blocks/footer/__contacts/footer__contacts.css);
 @import url(../blocks/footer/__telefons/footer__telefons.css);
 @import url(../blocks/footer/__telefon/footer__telefon.css);
@@ -226,8 +229,6 @@
 @import url(../blocks/footer/__subscription/footer__subscription.css);
 @import url(../blocks/footer/__title/_mobile-support/footer__title_mobile-support.css);
 @import url(../blocks/footer/__social-icons/footer__social-icons.css);
-@import url(../blocks/footer/__link-icon-telegramm/footer__link-icon-telegramm.css);
-@import url(../blocks/footer/__link-icon-vk/footer__link-icon-vk.css);
 @import url(../blocks/footer/__copyring/footer__copyring.css);
 @import url(../blocks/footer/_practiсum/footer__practiсum.css);
 @import url(../blocks/footer/__image-practicum/footer__image-practicum.css);

@@ -1,0 +1,20 @@
+.footer__link-icon_type_fpg {
+  background-image: url(../../../../images/fpg.svg);
+  width: 100px;
+  height: 48px;
+}
+
+@media (max-width: 1439px) {
+  .footer__link-icon_type_fpg {
+    width: 88px;
+    height: 30px;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer__link-icon_type_fpg {
+    width: 72px;
+    height: 48px;
+    background-position-y: top;
+  }
+}
