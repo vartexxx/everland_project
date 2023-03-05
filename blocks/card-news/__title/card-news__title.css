@@ -1,0 +1,39 @@
+.card-news__title {
+    font-family: 'Raleway', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 120%;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #333333;
+    padding: 0;
+    margin: 0 0 25px 0;
+}
+
+@media screen and (min-width: 320px) and (max-width : 479px) {
+    .card-news__title {
+        margin: 0 0 10px 0;
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width : 767px) {
+    .card-news__title {
+        margin: 0 0 10px 0;
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width : 1024px) {
+    .card-news__title {
+        font-size: 26px;
+        margin: 0 0 10px 0;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width : 1439px) {
+    .card-news__title {
+        font-size: 30px;
+        margin: 0 0 10px 0;
+    }
+}

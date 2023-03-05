@@ -1,0 +1,19 @@
+.advantages__name {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 120%;
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .advantages__name {
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .advantages__name {
+    font-size: 18px;
+  }
+}

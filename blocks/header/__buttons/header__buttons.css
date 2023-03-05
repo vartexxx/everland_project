@@ -1,0 +1,17 @@
+.header__buttons {
+  display: flex;
+  gap: 16px;
+  z-index: 1;
+}
+
+@media (max-width: 1023px) {
+  .header__buttons {
+    gap: 8px;
+  }
+}
+
+@media (max-width: 767px) {
+  .header__buttons {
+    display: none;
+  }
+}

@@ -1,0 +1,20 @@
+.footer__link-icons {
+  padding-top: 19px;
+  display: flex;
+  align-content: center;
+  gap: 50px;
+}
+
+@media (max-width: 1439px) {
+  .footer__link-icons {
+    gap: 21px;
+    padding-left: 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer__link-icons {
+    padding-left: 10px;
+    height: 48px;
+  }
+}

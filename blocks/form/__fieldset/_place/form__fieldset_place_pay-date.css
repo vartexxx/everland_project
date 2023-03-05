@@ -1,0 +1,21 @@
+.form__fieldset_place_pay-date {
+  padding-top: 26px;
+  padding-bottom: 38px;
+  display: grid;
+  grid-template-columns: 455px;  
+  grid-gap: 21px;
+}
+
+@media screen and (max-width: 1439px) {
+  .form__fieldset_place_pay-date {
+    padding-top: 23px;
+    padding-bottom: 27px;    
+    grid-gap: 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .form__fieldset_place_pay-date {
+    grid-template-columns: 260px;    
+  }
+}

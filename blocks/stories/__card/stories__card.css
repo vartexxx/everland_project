@@ -1,0 +1,20 @@
+.stories__card {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: repeat(3, auto);
+    align-items: center;
+}
+
+@media screen and (max-width: 1439px) {
+    .stories__card {
+        column-gap: 16px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .stories__card {
+        grid-template-rows: repeat(3, auto);
+        grid-template-columns: auto;
+        gap: 0;
+    }
+}

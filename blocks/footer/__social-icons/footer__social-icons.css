@@ -1,0 +1,19 @@
+.footer__social-icons {
+  padding-top: 11px;
+  display: flex;
+  align-content: center;
+  gap: 10px;
+}
+
+@media (max-width: 1439px) {
+  .footer__social-icons {
+    padding-top: 12px;
+    gap: 4px;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer__social-icons {
+    padding-top: 8px;
+  }
+}

@@ -1,0 +1,20 @@
+.footer__link-icon_type_beeline {
+  background-image: url(../../../../images/bilain.svg);
+  width: 100px;
+  height: 52px;
+}
+
+@media (max-width: 1439px) {
+  .footer__link-icon_type_beeline {
+    background-image: url(../../../../images/bilain-quadro.svg);
+    width: 56px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer__link-icon_type_beeline {
+    width: 47px;
+    height: 34px;
+  }
+}

@@ -1,0 +1,19 @@
+.footer__copyring-paragraph {
+  margin: 0;
+  font-size: 18px;
+  color: rgba(38, 38, 38, 0.5);
+}
+
+@media (max-width: 1439px) {
+  .footer__copyring-paragraph {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.2;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer__copyring-paragraph {
+    font-size: 12px;
+  }
+}

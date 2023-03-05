@@ -1,0 +1,31 @@
+.projects {
+    padding: 130px 0px 0px 0px;
+    margin: 0 auto;
+    max-width: 1360px;
+    width: calc(100% - 2*40px);
+}
+
+@media screen and (min-width: 320px) and (max-width : 767px) {
+    .projects {
+        width: calc(100% - 10px*2);
+        padding: 64px 0px 0px 0px;
+        margin: 0 auto;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width : 1024px) {
+    .projects {
+        width: calc(100% - 2*40px);
+        padding: 100px 0px 0px 0px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width : 1439px) {
+    .projects {
+        width: calc(100% - 2*40px);
+        padding: 0;
+        margin: 50px auto;
+    }
+}

@@ -1,0 +1,12 @@
+.two-cards__paragraph {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: stretch;
+}
+
+@media screen and (max-width: 767px) {
+    .two-cards__paragraph {
+        justify-content: space-around;
+    }
+}

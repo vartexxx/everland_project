@@ -1,0 +1,26 @@
+.title_place_agency {
+  width: 955px;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 1023px) {
+  .title_place_agency {
+    width: 504px;
+    font-size: 20px;
+    margin-top: 15px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .title_place_agency {
+    width: 100%;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .title_place_agency {
+    font-size: 16px;
+    letter-spacing: 0;
+  }
+}

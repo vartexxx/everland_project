@@ -1,0 +1,35 @@
+.stories__container {
+    max-width: 1360px;
+    padding: 150px 0px 100px 0px;
+    display: grid;
+    grid-template: 77px auto auto / 1fr;
+    grid-template-areas: 
+    'info-container'
+    'cards'
+    'two-cards';
+    row-gap: 50px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1439px) {
+    .stories__container {
+        max-width: 688px;
+        padding: 100px 0px 50px 0px;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: repeat(4, auto);
+        grid-template-areas: none;
+        row-gap: 40px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .stories__container {
+        max-width: 302px;
+        padding: 64px 0px 32px 0px;
+        grid-template-columns: auto;
+        grid-template-rows: repeat(5, auto);
+        grid-template-areas: none;
+        row-gap: 32px;
+    }
+}

@@ -1,0 +1,20 @@
+.figure__img {
+  width: 440px;
+  display: block;
+  border-radius: 30px;
+}
+
+@media screen and (max-width: 1023px) {
+  .figure__img {
+    width: 334px;
+    height: 334px;
+    border-radius: 20px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .figure__img {
+    width: 300px;
+    height: 300px;
+  }
+}

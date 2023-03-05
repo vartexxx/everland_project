@@ -1,0 +1,9 @@
+.header__small-link {
+  text-decoration: none;
+  color: #333333;
+  transition: opacity 0.3s;
+}
+
+.header__small-link:hover {
+  opacity: 0.7;
+}

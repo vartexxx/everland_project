@@ -1,0 +1,18 @@
+.projects__button-slider_direction_prev {
+    background-image: url(../../../../images/arrow_prev.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.projects__button-slider_direction_prev:hover {
+    background-image: url(../../../../images/arrow_prev.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.projects__button-slider_direction_prev:active {
+    background-image: url(../../../../images/arrow_prev.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}

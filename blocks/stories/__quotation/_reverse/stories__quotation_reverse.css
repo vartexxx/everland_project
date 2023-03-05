@@ -1,0 +1,6 @@
+@media screen and (min-width: 768px) {
+    .stories__quotation_reverse {
+        grid-row: 1;
+        grid-column: 1;
+    }
+}

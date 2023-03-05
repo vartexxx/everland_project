@@ -1,0 +1,15 @@
+.form__element-label_grid-position_price-other {
+  grid-area: price-other;
+}
+
+@media screen and (max-width: 1439px) {
+  .form__element-label_grid-position_price-other {
+    width: 190px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .form__element-label_grid-position_price-other {
+    width: 100%;
+  }
+}

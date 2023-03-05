@@ -1,0 +1,7 @@
+@media screen and (min-width: 768px) {
+    .stories__image_reverse {
+        grid-row: 1;
+        grid-column: 3;
+        margin: 0;
+    }
+}

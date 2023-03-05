@@ -1,0 +1,35 @@
+.form__button_type_submit {
+  margin-left: 208px;
+  width: 194px;
+  height: 48px;
+  color: #fff;
+  outline: none;
+  border: none;
+  background: #0c4ba0;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.form__button_type_submit:hover {
+  background: #4183dc;
+}
+
+.form__button_type_submit:active {
+  background: #00275c;
+}
+
+@media screen and (max-width: 1439px) {
+  .form__button_type_submit {
+    margin-left: 220px;
+    width: 200px;
+    height: 44px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .form__button_type_submit {
+    margin-left: 0;
+    width: 260px;
+    height: 44px;
+  }
+}

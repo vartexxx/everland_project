@@ -1,0 +1,5 @@
+.stories__link_disable {
+    color: rgba(38, 38, 38, 0.5);
+    background-color: #F5F5F5;
+    border: 2px solid #C4C4C4;
+}

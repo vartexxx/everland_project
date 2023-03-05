@@ -1,0 +1,15 @@
+.button_color_dark {
+    color: #333333;
+    border: 1px solid #333333;
+}
+
+.button_color_dark:hover {
+    color: #00275C;
+    border: 2px solid #333333;
+}
+
+.button_color_dark:active {
+    color: #FFFFFF;
+    background: #333333;
+    border: 2px solid #333333;
+}
